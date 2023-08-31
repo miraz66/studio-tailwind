@@ -24,10 +24,6 @@ function About() {
       <div className="z-10">sd sdf sdfsdfsdf</div>
       <div className="z-10">sd sdf sdfsdfsdf</div>
       <div className="z-10">sd sdf sdfsdfsdf</div>
-      <div className="z-10">sd sdf sdfsdfsdf</div>
-      <div className="z-10">sd sdf sdfsdfsdf</div>
-      <div className="z-10">sd sdf sdfsdfsdf</div>
-      <div className="z-10">sd sdf sdfsdfsdf</div>
     </div>
   );
 }
