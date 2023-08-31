@@ -5,9 +5,6 @@ function About() {
     <div className="bg-white">
       <HomeDisplay />
       <div className="z-10">sd sdf sdfsdfsdf</div>
-      <div className="z-10">sd sdf sdfsdfsdf</div>
-      <div className="z-10">sd sdf sdfsdfsdf</div>
-      <div className="z-10">sd sdf sdfsdfsdf</div>
     </div>
   );
 }
