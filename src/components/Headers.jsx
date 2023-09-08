@@ -1,5 +1,6 @@
 import { useState } from "react";
-// import HomeDisplay from "./HomeDisplay";
+import HomeDisplay from "./HomeDisplay";
+import Nav from "./Nav";
 
 export default function Headers() {
   const [isOpen, setIsOpen] = useState(true);
@@ -11,6 +12,7 @@ export default function Headers() {
   return (
     <>
       <div className="bg-black">
+        {/* ----Header Section---- */}
         <div className="relative md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl mx-auto font-sans">
           <div
             className={
@@ -143,17 +145,20 @@ export default function Headers() {
         </div>
 
         <div className="h-screen relative text-black bg-black overflow-y-hidden">
-          <div className="">jjsdf</div>
-          <div className="">jjsdf</div>
-          <div className="">jjsdf</div>
-          <div className="">jjsdf</div>
+          {/* ----Navigation Section---- */}
+          <Nav />
+
           <div
             className={
               !isOpen
                 ? "bg-white h-screen translate-y-full w-full ease-in-out duration-300 rounded-t-3xl"
                 : "bg-white absolute top-5 h-screen w-full ease-in-out duration-300 translate-y-0 rounded-t-3xl"
             }
-          ></div>
+          >
+            <HomeDisplay>
+              <div className="absolute top-20 text-black">hello</div>
+            </HomeDisplay>
+          </div>
         </div>
 
         {!isOpen && <div className="h-screen bg-white rounded-t-3xl"></div>}
