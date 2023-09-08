@@ -15,11 +15,11 @@ export default function Headers() {
           <div
             className={
               !isOpen
-                ? "text-white px-5 absolute pt-16 pb-10 w-full left-0 flex justify-between items-center z-50 ease-in-out duration-500"
-                : "absolute px-5 pt-16 pb-10 w-full left-0 flex justify-between items-center z-50 ease-in-out duration-500"
+                ? "text-white px-5 absolute pt-16 pb-10 w-full left-0 flex justify-between items-center z-50 ease-in-out duration-300"
+                : "absolute px-5 pt-16 pb-10 w-full left-0 flex justify-between items-center z-50 ease-in-out duration-300"
             }
           >
-            <div className="text-2xl font-bold ">
+            <div className="text-2xl font-bold">
               {isOpen ? (
                 <svg
                   viewBox="0 0 130 32"
@@ -33,7 +33,7 @@ export default function Headers() {
                   >
                     <rect
                       clipPath="url(#:rq:-clip)"
-                      className="h-8 transition-all duration-300 fill-neutral-950 w-0 group-hover/logo:w-8"
+                      className="h-8 transition-all fill-neutral-950 w-0 group-hover/logo:w-8"
                     ></rect>
                     <use
                       href="#:rq:-path"
@@ -60,7 +60,7 @@ export default function Headers() {
                 <svg
                   viewBox="0 0 130 32"
                   aria-hidden="true"
-                  className="hidden h-8 sm:block ease-out duration-500"
+                  className="hidden h-8 sm:block ease-out duration-300"
                 >
                   <svg
                     viewBox="0 0 32 32"
@@ -99,8 +99,8 @@ export default function Headers() {
               <button
                 className={
                   isOpen
-                    ? "bg-gray-900 text-white px-5 py-2 rounded-full font-medium font- ease-in-out duration-500"
-                    : "bg-white text-black px-5 py-2 rounded-full font-medium font- ease-in-out duration-500"
+                    ? "bg-gray-900 text-white px-5 py-2 rounded-full font-medium"
+                    : "bg-white text-black px-5 py-2 rounded-full font-medium"
                 }
               >
                 Contact us
@@ -142,13 +142,16 @@ export default function Headers() {
           </div>
         </div>
 
-        <div className="h-screen bg-black overflow-y-hidden">
+        <div className="h-screen relative text-black bg-black overflow-y-hidden">
+          <div className="">jjsdf</div>
+          <div className="">jjsdf</div>
+          <div className="">jjsdf</div>
           <div className="">jjsdf</div>
           <div
             className={
               !isOpen
                 ? "bg-white h-screen translate-y-full w-full ease-in-out duration-300 rounded-t-3xl"
-                : "bg-white h-screen w-full ease-in-out duration-300 translate-y-0 rounded-t-3xl"
+                : "bg-white absolute top-5 h-screen w-full ease-in-out duration-300 translate-y-0 rounded-t-3xl"
             }
           ></div>
         </div>
