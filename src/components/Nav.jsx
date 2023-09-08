@@ -5,7 +5,7 @@ export default function Nav() {
         <div className="">
           <div className="group grid grid-cols-2 text-white border-y">
             <div className="h-40 hover:bg-gray-950 ease-in-out duration-200 border-r flex items-center">
-              <div className="w-2/3 mx-auto pl-5 text-5xl font-mono tracking-tighter font-medium">
+              <div className="w-2/3 mx-auto pl-5 text-5xl font-mono tracking-tighter font-medium antialiased">
                 Our Work
               </div>
             </div>
