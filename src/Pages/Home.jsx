@@ -1,4 +1,5 @@
 import Headers from "../components/Headers";
+import WorkingPeople from "../components/WorkingPeople";
 
 function Home() {
   return (
@@ -6,7 +7,7 @@ function Home() {
       {/* ----Headers Section---- */}
       <Headers />
 
-      <div className=""></div>
+      <WorkingPeople />
     </>
   );
 }
