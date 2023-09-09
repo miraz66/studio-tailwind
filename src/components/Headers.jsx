@@ -210,7 +210,7 @@ export default function Headers() {
             }
           >
             <HomeDisplay>
-              <div className="absolute text-black w-full top-44 md:top-52 xl:top-72">
+              <div className="absolute text-black w-full top-52 xl:top-72">
                 <div className="max-w-7xl mx-auto px-5 grid xl:grid-cols-3">
                   <div className="col-span-2">
                     <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-gray-800 font-semibold tracking-tight leading-10 lg:leading-[90px]">
@@ -233,7 +233,7 @@ export default function Headers() {
         {!isOpen && (
           <div className="h-screen bg-white rounded-t-3xl">
             <HomeDisplay>
-              <div className="absolute text-black w-full top-44 md:top-52 xl:top-72">
+              <div className="absolute text-black w-full top-40 md:top-52 xl:top-72">
                 <div className="max-w-7xl mx-auto px-5 grid xl:grid-cols-3">
                   <div className="col-span-2">
                     <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-gray-800 font-semibold tracking-tight leading-10 lg:leading-[90px]">
