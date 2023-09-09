@@ -2,39 +2,40 @@ export default function Nav() {
   return (
     <div>
       <div className="pt-40">
-        <div className="grid grid-cols-2 text-gray-100 border-y border-neutral-700">
-          <div className="py-10 xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 border-r border-neutral-700 flex items-center">
+        <div className="grid md:grid-cols-2 text-gray-100 md:border-y border-neutral-700">
+          <div className="md:py-6 lg:py-10 2xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 max-lg:border-y md:border-r border-neutral-700 flex items-center">
             <div
               style={{ wordSpacing: "-5px" }}
-              className="w-2/3 mx-auto pl-5 text-3xl xl:text-5xl tracking-tighter font-medium"
+              className="w-2/3 md:mx-auto px-5 md:pl-5 max-lg:py-1 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
               Our Work
             </div>
           </div>
 
-          <div className="xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 flex items-center">
+          <div className="xl:py-16 hover:bg-neutral-900 max-lg:border-b border-neutral-700  ease-in-out duration-200 flex items-center">
             <div
               style={{ wordSpacing: "-5px" }}
-              className="w-3/4 mx-auto text-3xl xl:text-5xl tracking-tighter font-medium"
+              className="w-3/4 md:mx-auto max-lg:px-5 max-lg:py-1 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
               About Us
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-2 text-gray-100 border-b border-neutral-700">
-          <div className="md:py-10 xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 border-r border-neutral-700 flex items-center">
+        <div className="grid md:grid-cols-2 text-gray-100 md:border-b border-neutral-700">
+          <div className="md:py-6 lg:py-10 2xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 max-lg:border-b md:border-r border-neutral-700 flex items-center">
             <div
               style={{ wordSpacing: "-5px" }}
-              className="w-2/3 mx-auto pl-5 text-3xl xl:text-5xl tracking-tighter font-medium"
+              className="w-2/3 md:mx-auto px-5 md:pl-5 max-lg:py-1 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
               Our Process
             </div>
           </div>
-          <div className="md:py-10 xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 flex items-center">
+
+          <div className="md:py-10 xl:py-16 hover:bg-neutral-900 max-lg:border-b border-neutral-700 ease-in-out duration-200 flex items-center">
             <div
               style={{ wordSpacing: "-5px" }}
-              className="w-3/4 mx-auto text-3xl xl:text-5xl tracking-tighter font-semibold"
+              className="w-3/4 md:mx-auto max-lg:px-5 max-lg:py-1 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-semibold"
             >
               Block
             </div>
@@ -42,7 +43,7 @@ export default function Nav() {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 max-w-7xl mx-auto px-5 py-10">
+      <div className="grid md:grid-cols-4 gap-3 max-w-7xl mx-auto px-5 py-10">
         <div className="text-gray-100">
           <h2 className="text-xl font-medium">Our offices</h2>
 

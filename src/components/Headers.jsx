@@ -151,12 +151,12 @@ export default function Headers() {
               )}
             </div>
 
-            <div className="flex justify-center gap-10">
+            <div className="flex justify-center gap-5 md:gap-10">
               <button
                 className={
                   isOpen
-                    ? "bg-gray-900 text-white px-5 py-2 rounded-full font-medium"
-                    : "bg-white text-black px-5 py-2 rounded-full font-medium"
+                    ? "bg-gray-900 text-white px-5 py-1 md:py-2 rounded-full font-medium"
+                    : "bg-white text-black px-5 py-1 md:py-2 rounded-full font-medium"
                 }
               >
                 Contact us
@@ -198,15 +198,15 @@ export default function Headers() {
           </div>
         </div>
 
-        <div className="h-screen relative text-black bg-neutral-950 overflow-y-hidden">
+        <div className="h-[42rem] xl:h-[48rem] 2xl:h-screen relative text-black bg-neutral-950 overflow-y-hidden">
           {/* ----Navigation Section---- */}
           <Nav />
 
           <div
             className={
               !isOpen
-                ? " h-screen w-full bg-white translate-y-full ease-in-out duration-500 rounded-t-3xl"
-                : "h-screen w-full bg-white translate-y-0 absolute top-3 ease-in-out duration-500 rounded-t-3xl"
+                ? " h-[42rem] xl:h-[48rem] 2xl:h-screen w-full bg-white translate-y-full ease-in-out duration-500 rounded-t-3xl"
+                : "h-[42rem] xl:h-[48rem] 2xl:h-screen w-full bg-white translate-y-0 absolute top-2 ease-in-out duration-500 rounded-t-3xl"
             }
           >
             <HomeDisplay>
