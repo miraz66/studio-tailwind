@@ -95,6 +95,60 @@ export default function Headers() {
                   ></path>
                 </svg>
               )}
+
+              {isOpen ? (
+                <svg
+                  viewBox="0 0 32 32"
+                  aria-hidden="true"
+                  className="h-8 sm:hidden"
+                >
+                  <rect
+                    clipPath="url(#:r8:-clip)"
+                    className="h-8 transition-all duration-300 fill-neutral-950 w-0 group-hover/logo:w-8"
+                  ></rect>
+                  <use
+                    href="#:r8:-path"
+                    className="stroke-neutral-950"
+                    fill="none"
+                    strokeWidth="1.5"
+                  ></use>
+                  <defs>
+                    <path
+                      id=":r8:-path"
+                      d="M3.25 26v.75H7c1.305 0 2.384-.21 3.346-.627.96-.415 1.763-1.02 2.536-1.752.695-.657 1.39-1.443 2.152-2.306l.233-.263c.864-.975 1.843-2.068 3.071-3.266 1.209-1.18 2.881-1.786 4.621-1.786h5.791V5.25H25c-1.305 0-2.384.21-3.346.627-.96.415-1.763 1.02-2.536 1.751-.695.658-1.39 1.444-2.152 2.307l-.233.263c-.864.975-1.843 2.068-3.071 3.266-1.209 1.18-2.881 1.786-4.621 1.786H3.25V26Z"
+                    ></path>
+                    <clipPath id=":r8:-clip">
+                      <use href="#:r8:-path"></use>
+                    </clipPath>
+                  </defs>
+                </svg>
+              ) : (
+                <svg
+                  viewBox="0 0 32 32"
+                  aria-hidden="true"
+                  className="h-8 sm:hidden"
+                >
+                  <rect
+                    clipPath="url(#:ra:-clip)"
+                    className="h-8 transition-all duration-300 fill-white w-0 group-hover/logo:w-8"
+                  ></rect>
+                  <use
+                    href="#:ra:-path"
+                    className="stroke-white"
+                    fill="none"
+                    strokeWidth="1.5"
+                  ></use>
+                  <defs>
+                    <path
+                      id=":ra:-path"
+                      d="M3.25 26v.75H7c1.305 0 2.384-.21 3.346-.627.96-.415 1.763-1.02 2.536-1.752.695-.657 1.39-1.443 2.152-2.306l.233-.263c.864-.975 1.843-2.068 3.071-3.266 1.209-1.18 2.881-1.786 4.621-1.786h5.791V5.25H25c-1.305 0-2.384.21-3.346.627-.96.415-1.763 1.02-2.536 1.751-.695.658-1.39 1.444-2.152 2.307l-.233.263c-.864.975-1.843 2.068-3.071 3.266-1.209 1.18-2.881 1.786-4.621 1.786H3.25V26Z"
+                    ></path>
+                    <clipPath id=":ra:-clip">
+                      <use href="#:ra:-path"></use>
+                    </clipPath>
+                  </defs>
+                </svg>
+              )}
             </div>
 
             <div className="flex justify-center gap-10">
@@ -144,24 +198,60 @@ export default function Headers() {
           </div>
         </div>
 
-        <div className="h-screen relative text-black bg-black overflow-y-hidden">
+        <div className="h-screen relative text-black bg-neutral-950 overflow-y-hidden">
           {/* ----Navigation Section---- */}
           <Nav />
 
           <div
             className={
               !isOpen
-                ? "bg-white h-screen translate-y-full w-full ease-in-out duration-300 rounded-t-3xl"
-                : "bg-white absolute top-5 h-screen w-full ease-in-out duration-300 translate-y-0 rounded-t-3xl"
+                ? " h-screen w-full bg-white translate-y-full ease-in-out duration-500 rounded-t-3xl"
+                : "h-screen w-full bg-white translate-y-0 absolute top-3 ease-in-out duration-500 rounded-t-3xl"
             }
           >
             <HomeDisplay>
-              <div className="absolute top-20 text-black">hello</div>
+              <div className="absolute text-black w-full top-44 md:top-52 xl:top-72">
+                <div className="max-w-7xl mx-auto px-5 grid xl:grid-cols-3">
+                  <div className="col-span-2">
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-gray-800 font-semibold tracking-tight leading-10 lg:leading-[90px]">
+                      Award-winning development studio based in Denmark.
+                    </h1>
+
+                    <p className="lg:text-xl pt-10 leading-8 text-gray-700">
+                      We are a development studio working at the intersection of
+                      design and technology. It’s a really busy intersection
+                      though — a lot of our staff have been involved in hit and
+                      runs.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </HomeDisplay>
           </div>
         </div>
 
-        {!isOpen && <div className="h-screen bg-white rounded-t-3xl"></div>}
+        {!isOpen && (
+          <div className="h-screen bg-white rounded-t-3xl">
+            <HomeDisplay>
+              <div className="absolute text-black w-full top-44 md:top-52 xl:top-72">
+                <div className="max-w-7xl mx-auto px-5 grid xl:grid-cols-3">
+                  <div className="col-span-2">
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-gray-800 font-semibold tracking-tight leading-10 lg:leading-[90px]">
+                      Award-winning development studio based in Denmark.
+                    </h1>
+
+                    <p className="lg:text-xl pt-10 leading-8 text-gray-700">
+                      We are a development studio working at the intersection of
+                      design and technology. It’s a really busy intersection
+                      though — a lot of our staff have been involved in hit and
+                      runs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </HomeDisplay>
+          </div>
+        )}
       </div>
     </>
   );

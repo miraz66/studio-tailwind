@@ -6,7 +6,7 @@ function Home() {
       {/* ----Headers Section---- */}
       <Headers />
 
-      <div className="h-screen bg-black"></div>
+      <div className=""></div>
     </>
   );
 }

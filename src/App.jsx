@@ -7,7 +7,7 @@ import About from "./Pages/About";
 function App() {
   return (
     <>
-      <div className="font-sans">
+      <div className="font-display">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
