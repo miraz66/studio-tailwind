@@ -238,15 +238,37 @@ export default function WorkingPeople() {
               <h5>
                 <span>2023</span> / <span>Case study</span>
               </h5>
-              <h2>Skip the bank, borrow from those you trust</h2>
+              <h4>Skip the bank, borrow from those you trust</h4>
               <p>
                 FamilyFund is a crowdfunding platform for friends and family.
                 Allowing users to take personal loans from their network without
                 a traditional financial institution.
               </p>
             </div>
-            <div className=""></div>
-            <div className=""></div>
+            <div className="">
+              <div className=""></div>
+              <h5>
+                <span>2022</span> / <span>Case study</span>
+              </h5>
+              <h4>Get a hodl of your health</h4>
+              <p>
+                Unseal is the first NFT platform where users can mint and trade
+                NFTs of their own personal health records, allowing them to take
+                control of their data.
+              </p>
+            </div>
+            <div className="">
+              <div className=""></div>
+              <h5>
+                <span>2022</span> / <span>Case study</span>
+              </h5>
+              <h4>Overcome your fears, find your match</h4>
+              <p>
+                Find love in the face of fear — Phobia is a dating app that
+                matches users based on their mutual phobias so they can be
+                scared together.
+              </p>
+            </div>
           </div>
         </div>
       </div>
