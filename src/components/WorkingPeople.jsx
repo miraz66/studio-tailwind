@@ -222,6 +222,33 @@ export default function WorkingPeople() {
             </ul>
           </div>
         </div>
+
+        <div className="">
+          <div className="">
+            <h2>Harnessing technology for a brighter future</h2>
+            <p>
+              We believe technology is the answer to the world’s greatest
+              challenges. It’s also the cause, so we find ourselves in bit of a
+              catch 22 situation.
+            </p>
+          </div>
+          <div className="">
+            <div className="">
+              <div className=""></div>
+              <h5>
+                <span>2023</span> / <span>Case study</span>
+              </h5>
+              <h2>Skip the bank, borrow from those you trust</h2>
+              <p>
+                FamilyFund is a crowdfunding platform for friends and family.
+                Allowing users to take personal loans from their network without
+                a traditional financial institution.
+              </p>
+            </div>
+            <div className=""></div>
+            <div className=""></div>
+          </div>
+        </div>
       </div>
     </>
   );
