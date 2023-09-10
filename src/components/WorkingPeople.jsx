@@ -4,7 +4,7 @@ export default function WorkingPeople() {
       <div className="bg-white py-20">
         <div className="bg-black py-32 rounded-[50px]">
           <div className="max-w-7xl mx-auto">
-            <h5 className="pb-14 text-gray-100 text-xl font-semibold tracking-tight">
+            <h5 className="pb-10 text-gray-100 text-xl font-semibold tracking-tight">
               We’ve worked with hundreds of amazing people
             </h5>
             <ul className="grid grid-rows-2 grid-cols-4 gap-10">
@@ -223,47 +223,125 @@ export default function WorkingPeople() {
           </div>
         </div>
 
-        <div className="">
-          <div className="">
-            <h2>Harnessing technology for a brighter future</h2>
-            <p>
+        <div className="max-w-7xl mx-auto px-5 py-40">
+          <div className="max-w-3xl">
+            <h2 className="text-5xl text-gray-800 font-medium tracking-tighter pb-5 leading-tight">
+              Harnessing technology <br /> for a brighter future
+            </h2>
+            <p className="text-xl text-gray-800 pb-20 pt-3">
               We believe technology is the answer to the world’s greatest
               challenges. It’s also the cause, so we find ourselves in bit of a
               catch 22 situation.
             </p>
           </div>
-          <div className="">
-            <div className="">
-              <div className=""></div>
-              <h5>
-                <span>2023</span> / <span>Case study</span>
+
+          <div className="grid grid-cols-3 gap-10">
+            <div className="border p-8 rounded-3xl hover:bg-neutral-50 ease-in-out duration-200">
+              <div className="">
+                <svg
+                  className="w-16 h-16"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="15" cy="18" r="15" fill="#0A0A0A" />
+                  <path d="M8.5 10H19.5L21.5 12L19.5 14H8.5V10Z" fill="white" />
+                  <path d="M8.5 16H15.5L17.5 18L15.5 20H8.5V16Z" fill="white" />
+                  <rect x="8.5" y="22" width="4" height="4" fill="white" />
+                </svg>
+              </div>
+              <h5 className="py-5">
+                <span className="font-semibold">2023</span> /{" "}
+                <span className="font-medium">Case study</span>
               </h5>
-              <h4>Skip the bank, borrow from those you trust</h4>
-              <p>
+              <h4 className="text-2xl font-semibold tracking-tighter pb-5">
+                Skip the bank, borrow from those you trust
+              </h4>
+              <p className="text-gray-700 leading-7">
                 FamilyFund is a crowdfunding platform for friends and family.
                 Allowing users to take personal loans from their network without
                 a traditional financial institution.
               </p>
             </div>
-            <div className="">
-              <div className=""></div>
-              <h5>
-                <span>2022</span> / <span>Case study</span>
+
+            <div className="border p-8 rounded-3xl hover:bg-neutral-50 ease-in-out duration-200">
+              <div className="">
+                <svg
+                  className="w-16 h-16"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 20C1 26.6274 6.37258 32 13 32H29V4H1V20Z"
+                    fill="#0A0A0A"
+                  />
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M11.5 10.5V21.5L22.5 21.5V25.5H11.5C9.29086 25.5 7.5 23.7091 7.5 21.5V10.5H11.5ZM22.5 10.5H18.5V15.5C18.5 16.6046 19.3954 17.5 20.5 17.5C21.6046 17.5 22.5 16.6046 22.5 15.5V10.5Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+              <h5 className="py-5">
+                <span className="font-semibold">2022</span> /{" "}
+                <span className="font-medium">Case study</span>
               </h5>
-              <h4>Get a hodl of your health</h4>
-              <p>
+              <h4 className="text-2xl font-semibold tracking-tighter pb-5">
+                Get a hodl of your health
+              </h4>
+              <p className="text-gray-700 leading-7">
                 Unseal is the first NFT platform where users can mint and trade
                 NFTs of their own personal health records, allowing them to take
                 control of their data.
               </p>
             </div>
-            <div className="">
-              <div className=""></div>
-              <h5>
-                <span>2022</span> / <span>Case study</span>
+
+            <div className="border p-8 rounded-3xl hover:bg-neutral-50 ease-in-out duration-200">
+              <div className="">
+                <svg
+                  className="w-16 h-16"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M2.88146 6.03314C6.38837 3.0447 11.9315 3.58464 15 7C18.0685 3.58464 23.6116 3.0447 27.1185 6.03314C30.6254 9.02158 30.9808 14.2129 27.9123 17.6282L16.4877 30.344C15.6931 31.2285 14.3069 31.2285 13.5123 30.344L2.08773 17.6282C-0.98081 14.2129 -0.625447 9.02158 2.88146 6.03314Z"
+                    fill="#0A0A0A"
+                  />
+                  <path
+                    d="M11 17V17.5"
+                    stroke="white"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M19 17V17.5"
+                    stroke="white"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M12 23C12 23 12.75 22 15 22C17.25 22 18 23 18 23"
+                    stroke="white"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+              <h5 className="py-5">
+                <span className="font-semibold">2022</span> /{" "}
+                <span className="font-medium">Case study</span>
               </h5>
-              <h4>Overcome your fears, find your match</h4>
-              <p>
+              <h4 className="text-2xl font-semibold tracking-tighter pb-5">
+                Overcome your fears, find your match
+              </h4>
+              <p className="text-gray-700 leading-7">
                 Find love in the face of fear — Phobia is a dating app that
                 matches users based on their mutual phobias so they can be
                 scared together.
