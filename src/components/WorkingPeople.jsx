@@ -1,7 +1,9 @@
+import BodySvg from "../assets/BodySvg";
+
 export default function WorkingPeople() {
   return (
     <>
-      <div className="bg-white py-20">
+      <div className="bg-white pt-20">
         <div className="bg-black py-32 rounded-[50px]">
           <div className="max-w-7xl mx-auto">
             <h5 className="pb-10 text-gray-100 text-xl font-semibold tracking-tight">
@@ -347,6 +349,22 @@ export default function WorkingPeople() {
                 scared together.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-96 bg-neutral-50 relative">
+        <BodySvg />
+        <div className="absolute top-0 w-full">
+          <div className="max-w-4xl mx-auto my-auto py-20">
+            <blockquote className="relative font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
+              <p className="after:content-['”'] before:content-['“'] sm:before:absolute sm:before:right-full">
+                The team at Studio went above and beyond with our onboarding,
+                even finding a way to access the user’s microphone without
+                triggering one of those annoying permission dialogs.
+              </p>
+            </blockquote>
+
+            <div className=""></div>
           </div>
         </div>
       </div>
