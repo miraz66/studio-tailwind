@@ -2,7 +2,7 @@ export default function WorkingPeople() {
   return (
     <>
       <div className="bg-white py-20">
-        <div className="bg-black py-28 rounded-[3rem]">
+        <div className="bg-black py-32 rounded-[50px]">
           <div className="max-w-7xl mx-auto">
             <h5 className="pb-14 text-gray-100 text-xl font-semibold tracking-tight">
               We’ve worked with hundreds of amazing people
