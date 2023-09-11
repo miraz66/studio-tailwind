@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="max-w-7xl mx-auto px-5 bg-white">
+      <div className="max-w-7xl mx-auto px-5 bg-white pt-10">
         <div className="grid grid-cols-3">
           <div className="col-span-2 grid grid-cols-4 pl-2">
             <ul className="flex flex-col gap-3">
@@ -56,7 +56,7 @@ export default function Footer() {
             </ul>
             <div></div>
           </div>
-          <div className="">
+          <div>
             <form className="max-w-sm">
               <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
                 Sign up for our newsletter
@@ -132,7 +132,9 @@ export default function Footer() {
               ></path>
             </svg>
           </a>
-          <p className="text-sm text-neutral-700">© Studio Agency Inc. 2023</p>
+          <p className="text-sm text-neutral-700">
+            ©Copyright 2023 - Studio Agency Inc. All Rights Reserved.
+          </p>
         </div>
       </div>
     </>
