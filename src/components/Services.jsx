@@ -17,28 +17,24 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="flex">
+          <div className="flex pt-20 gap-10">
             <div className="w-1/2">
               <svg viewBox="0 0 655 680" fill="none" className="h-full">
                 <g clipPath="url(#:S1:-clip)" className="group">
                   <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
                     <foreignObject width="655" height="680">
-                      {/* <img
-                        alt=""
+                      <img
+                        className="h-full w-full bg-neutral-100 object-cover "
                         loading="lazy"
                         width="2400"
                         height="3000"
                         decoding="async"
                         data-nimg="1"
-                        className="w-full bg-neutral-100 object-cover"
-                        style="color:transparent;aspect-ratio:655 / 680"
+                        style={{
+                          color: "transparent",
+                          aspectRatio: "655 / 680",
+                        }}
                         sizes="(min-width: 1024px) 41rem, 31rem"
-                        // srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=16&amp;q=75 16w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=32&amp;q=75 32w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=48&amp;q=75 48w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=64&amp;q=75 64w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=96&amp;q=75 96w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=128&amp;q=75 128w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=256&amp;q=75 256w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=3840&amp;q=75 3840w"
-                        // src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=3840&amp;q=75"
-                      /> */}
-
-                      <img
-                        className="h-full w-full bg-neutral-100 object-cover "
                         src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&w=828&q=75"
                         alt=""
                       />
@@ -63,8 +59,8 @@ export default function Services() {
               </svg>
             </div>
 
-            <div className="w-1/2">
-              <ul className="text-base text-neutral-600 mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+            <div className="w-1/2 py-10">
+              <ul className="text-base text-neutral-600 mt-16 lg:mt-0 lg:w-2/3 lg:min-w-[33rem] lg:pl-4">
                 <li className="group mt-10 first:mt-0">
                   <div style={{ opacity: 1, transform: "none" }}>
                     <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
@@ -79,7 +75,7 @@ export default function Services() {
                 </li>
 
                 <li className="group mt-10 first:mt-0">
-                  <div style={{ opacity: 1, transform: "none" }} className="b">
+                  <div style={{ opacity: 1, transform: "none" }}>
                     <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                       <strong className="font-semibold text-neutral-950">
                         Application development.{" "}
@@ -92,7 +88,7 @@ export default function Services() {
                 </li>
 
                 <li className="group mt-10 first:mt-0">
-                  <div style={{ opacity: 1, transform: "none" }} className="b">
+                  <div style={{ opacity: 1, transform: "none" }}>
                     <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                       <strong className="font-semibold text-neutral-950">
                         E-commerce.
@@ -105,7 +101,7 @@ export default function Services() {
                 </li>
 
                 <li className="group mt-10 first:mt-0">
-                  <div style={{ opacity: 1, transform: "none" }} className="b">
+                  <div style={{ opacity: 1, transform: "none" }}>
                     <div className="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
                       <strong className="font-semibold text-neutral-950">
                         Custom content management.
@@ -117,6 +113,41 @@ export default function Services() {
                   </div>
                 </li>
               </ul>
+            </div>
+          </div>
+
+          <div className="mt-36 max-w-7xl bg-neutral-950 py-24 px-40 rounded-[60px]">
+            <h3 className="pb-8 text-4xl text-neutral-100 font-semibold tracking-tighter">
+              Tell us about your project !
+            </h3>
+            <button className="px-5 py-2 rounded-full bg-neutral-100 font-medium hover:bg-neutral-200 ease-in-out duration-200">
+              Say Hei
+            </button>
+
+            <div className="h-[1px] w-full my-12 bg-slate-600"></div>
+
+            <div className="flex gap-16">
+              <div className="text-gray-100">
+                <h2 className="text-xl font-medium tracking-tighter">
+                  Our offices
+                </h2>
+
+                <h3 className="pt-6 pb-1 text-lg tracking-tighter">
+                  Copenhagen
+                </h3>
+                <div className="text-sm text-gray-300 leading-6">
+                  <p>1 Carlsberg Gate</p>
+                  <p>1260, København, Denmark</p>
+                </div>
+              </div>
+
+              <div className="text-gray-100">
+                <h3 className="pt-14 text-lg pb-1 tracking-tighter">Billund</h3>
+                <div className="text-sm text-gray-300 leading-6">
+                  <p>24 Lego Allé</p>
+                  <p>7190, Billund, Denmark</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
