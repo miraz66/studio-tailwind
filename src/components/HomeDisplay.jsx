@@ -1,9 +1,9 @@
-import BodySvg from "../assets/BodySvg";
 import PropTypes from "prop-types";
+import BodySvg from "../assets/BodySvg";
 
 function HomeDisplay({ children }) {
   return (
-    <div className="h-screen relative">
+    <div className="h-full relative">
       <BodySvg />
       {children}
     </div>

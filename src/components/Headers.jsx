@@ -1,8 +1,9 @@
+import PropTypes from "prop-types";
 import { useState } from "react";
 import HomeDisplay from "./HomeDisplay";
 import Nav from "./Nav";
 
-export default function Headers() {
+export default function Headers({ children }) {
   const [isOpen, setIsOpen] = useState(true);
 
   const toggleMenu = () => {
@@ -216,18 +217,7 @@ export default function Headers() {
             <HomeDisplay>
               <div className="absolute text-black w-full top-52 xl:top-72">
                 <div className="max-w-7xl mx-auto px-5 grid xl:grid-cols-3">
-                  <div className="col-span-2">
-                    <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-gray-800 font-semibold tracking-tight leading-10 lg:leading-[90px]">
-                      Award-winning development studio based in Denmark.
-                    </h1>
-
-                    <p className="lg:text-xl pt-10 leading-8 text-gray-700">
-                      We are a development studio working at the intersection of
-                      design and technology. It’s a really busy intersection
-                      though — a lot of our staff have been involved in hit and
-                      runs.
-                    </p>
-                  </div>
+                  <div className="col-span-2">{children}</div>
                 </div>
               </div>
             </HomeDisplay>
@@ -239,18 +229,7 @@ export default function Headers() {
             <HomeDisplay>
               <div className="absolute text-black w-full top-40 md:top-52 xl:top-72">
                 <div className="max-w-7xl mx-auto px-5 grid xl:grid-cols-3">
-                  <div className="col-span-2">
-                    <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-gray-800 font-semibold tracking-tight leading-10 lg:leading-[90px]">
-                      Award-winning development studio based in Denmark.
-                    </h1>
-
-                    <p className="lg:text-xl pt-10 leading-8 text-gray-700">
-                      We are a development studio working at the intersection of
-                      design and technology. It’s a really busy intersection
-                      though — a lot of our staff have been involved in hit and
-                      runs.
-                    </p>
-                  </div>
+                  <div className="col-span-2">{children}</div>
                 </div>
               </div>
             </HomeDisplay>
@@ -260,3 +239,7 @@ export default function Headers() {
     </>
   );
 }
+
+Headers.propTypes = {
+  children: PropTypes.object.isRequired,
+};
