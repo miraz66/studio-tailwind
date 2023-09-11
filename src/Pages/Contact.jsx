@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 export default function Contact() {
   return (
     <>
-      <div className="relative">
+      <div className="">
         <Headers>
           <h6 className="font-semibold">Contact us</h6>
           <h4 className="my-8 text-neutral-980 text-5xl font-semibold tracking-tight">
@@ -14,9 +14,8 @@ export default function Contact() {
             {" "}
             We can’t wait to hear from you.
           </p>
-
-          <div className="">hello</div>
         </Headers>
+
       </div>
 
       <Footer />
