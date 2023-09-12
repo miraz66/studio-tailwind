@@ -3,7 +3,7 @@ export default function Footer() {
     <>
       <div className="max-w-7xl mx-auto px-5 bg-white pt-10">
         <div className="grid grid-cols-3">
-          <div className="col-span-2 grid grid-cols-4 pl-2">
+          <div className="col-span-2 grid grid-cols-4">
             <ul className="flex flex-col gap-3">
               <li className="text-base font-semibold">Work</li>
               <li className="text-neutral-600 text-sm font-medium hover:text-neutral-800 cursor-pointer ease-in-out duration-200">
