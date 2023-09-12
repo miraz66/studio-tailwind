@@ -1,10 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useState } from "react";
+
 import HomeDisplay from "./HomeDisplay";
 import Nav from "./Nav";
 
 export default function Headers({ children }) {
   const [isOpen, setIsOpen] = useState(true);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -158,10 +161,11 @@ export default function Headers({ children }) {
 
             <div className="flex justify-center gap-5 md:gap-10">
               <button
+                onClick={() => navigate("/contact")}
                 className={
                   isOpen
-                    ? "bg-gray-900 text-white px-5 py-1 md:py-2 rounded-full font-medium"
-                    : "bg-white text-black px-5 py-1 md:py-2 rounded-full font-medium"
+                    ? "bg-gray-900 text-white px-5 py-1 md:py-2 rounded-full font-medium hover:bg-gray-600"
+                    : "bg-white text-black px-5 py-1 md:py-2 rounded-full font-medium hover:bg-gray-100"
                 }
               >
                 Contact us
@@ -241,5 +245,5 @@ export default function Headers({ children }) {
 }
 
 Headers.propTypes = {
-  children: PropTypes.object.isRequired,
+  children: PropTypes.array.isRequired,
 };
