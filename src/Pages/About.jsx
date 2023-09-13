@@ -1,12 +1,14 @@
 import MainContainer from "../components/MainContainer";
 import HomeDisplay from "../components/HomeDisplay";
+import CultureSection from "../components/CultureSection";
+import Employee from "../components/Employee";
 
 function About() {
   return (
     <>
       <MainContainer>
-        <HomeDisplay>
-          <div className="absolute top-64 w-full">
+        <HomeDisplay css="h-[42rem] xl:h-[48rem] 2xl:h-screen relative">
+          <div className="absolute top-56 w-full">
             <div className="max-w-7xl mx-auto px-5">
               <div className="">
                 <h1>
@@ -19,19 +21,19 @@ function About() {
                   </span>
                 </h1>
                 <div className="mt-6 max-w-3xl text-xl text-neutral-600">
-                  <p>
+                  <p className="pb-10 text-neutral-600 font-medium tracking-tighter leading-8">
                     We believe that our strength lies in our collaborative
                     approach, which puts our clients at the center of everything
                     we do.
                   </p>
-                  <p>
+                  <p className="text-lg pb-5 text-neutral-600 tracking-tighter leading-8">
                     Studio was started by three friends who noticed that
                     developer studios were charging clients double what an
                     in-house team would cost. Since the beginning, we have been
                     committed to doing things differently by charging triple
                     instead.
                   </p>
-                  <p>
+                  <p className="text-lg text-neutral-600 tracking-tighter leading-8">
                     At Studio, we’re more than just colleagues — we’re a family.
                     This means we pay very little and expect people to work
                     late. We want our employees to bring their whole selves to
@@ -43,6 +45,10 @@ function About() {
             </div>
           </div>
         </HomeDisplay>
+
+        <CultureSection />
+
+        <Employee />
       </MainContainer>
     </>
   );
