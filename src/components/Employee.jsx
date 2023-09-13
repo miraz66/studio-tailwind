@@ -237,7 +237,7 @@ export default function Employee() {
                     </div>
                   </li>
 
-                  {/* <li>
+                  <li>
                     <div style={{ opacity: 1, transform: "none" }}>
                       <div className="group relative overflow-hidden rounded-3xl bg-neutral-100">
                         <img
@@ -261,7 +261,7 @@ export default function Employee() {
                         </div>
                       </div>
                     </div>
-                  </li> */}
+                  </li>
 
                   {/* <li>
                     <div style={{ opacity: 1, transform: "none" }}>
