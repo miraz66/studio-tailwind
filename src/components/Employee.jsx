@@ -33,7 +33,7 @@ export default function Employee() {
                   role="list"
                   className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8"
                 >
-                  {/* <li>
+                  <li>
                     <div style={{ opacity: 1, transform: "none" }}>
                       <div className="group relative overflow-hidden rounded-3xl bg-neutral-100">
                         <img
@@ -57,7 +57,7 @@ export default function Employee() {
                         </div>
                       </div>
                     </div>
-                  </li> */}
+                  </li>
 
                   {/* <li>
                     <div style={{ opacity: 1, transform: "none" }}>
