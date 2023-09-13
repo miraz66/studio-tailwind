@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="max-w-7xl mx-auto px-5 bg-white pt-10">
+      <div className="max-w-7xl mx-auto px-5 bg-white pt-10 mt-28">
         <div className="grid grid-cols-3">
           <div className="col-span-2 grid grid-cols-4">
             <ul className="flex flex-col gap-3">
@@ -94,7 +94,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
+        <div className="pb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <a aria-label="Home" href="/">
             <svg
               viewBox="0 0 130 32"

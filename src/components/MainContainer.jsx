@@ -1,11 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useState } from "react";
-
-import HomeDisplay from "./HomeDisplay";
 import Nav from "./Nav";
 
-export default function Headers({ children }) {
+export default function MainContainer({ children }) {
   const [isOpen, setIsOpen] = useState(true);
   const navigate = useNavigate();
 
@@ -207,43 +205,25 @@ export default function Headers({ children }) {
           </div>
         </div>
 
-        <div className="h-[42rem] xl:h-[48rem] 2xl:h-screen relative text-black bg-neutral-950 overflow-y-hidden">
+        <div className="h-[42rem] xl:h-[48rem] 2xl:h-screen relative text-black bg-neutral-950">
           {/* ----Navigation Section---- */}
           <Nav />
 
           <div
             className={
               !isOpen
-                ? " h-[42rem] xl:h-[48rem] 2xl:h-screen w-full bg-white translate-y-full ease-in-out duration-500 rounded-t-3xl"
-                : "h-[42rem] xl:h-[48rem] 2xl:h-screen w-full bg-white translate-y-0 absolute top-2 ease-in-out duration-500 rounded-t-3xl"
+                ? "bg-white h-screen absolute top-0 translate-y-full w-full ease-in-out duration-500 rounded-t-[2rem]"
+                : "bg-white h-screen absolute top-2  w-full ease-in-out duration-500 translate-y-0 rounded-t-[2rem]"
             }
           >
-            <HomeDisplay>
-              <div className="absolute text-black w-full top-52 xl:top-72">
-                <div className="max-w-7xl mx-auto px-5 grid xl:grid-cols-3">
-                  <div className="col-span-2">{children}</div>
-                </div>
-              </div>
-            </HomeDisplay>
+            {children}
           </div>
         </div>
-
-        {!isOpen && (
-          <div className="h-screen bg-white rounded-t-3xl">
-            <HomeDisplay>
-              <div className="absolute text-black w-full top-40 md:top-52 xl:top-72">
-                <div className="max-w-7xl mx-auto px-5 grid xl:grid-cols-3">
-                  <div className="col-span-2">{children}</div>
-                </div>
-              </div>
-            </HomeDisplay>
-          </div>
-        )}
       </div>
     </>
   );
 }
 
-Headers.propTypes = {
+MainContainer.propTypes = {
   children: PropTypes.array.isRequired,
 };

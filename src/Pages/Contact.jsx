@@ -1,11 +1,11 @@
-import Headers from "../components/Headers";
+import MainContainer from "../components/MainContainer";
 import Footer from "../components/Footer";
 import ContactInformation from "../components/ContactInformation";
 
 export default function Contact() {
   return (
     <>
-      <Headers>
+      <MainContainer>
         <h6 className="font-semibold">Contact us</h6>
         <h4 className="my-8 text-neutral-980 text-5xl font-semibold tracking-tight">
           Let’s work together
@@ -14,7 +14,7 @@ export default function Contact() {
           {" "}
           We can’t wait to hear from you.
         </p>
-      </Headers>
+      </MainContainer>
 
       <ContactInformation />
 

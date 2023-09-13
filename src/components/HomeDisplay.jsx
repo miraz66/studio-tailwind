@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import BodySvg from "../assets/BodySvg";
 
-function HomeDisplay({ children }) {
+function HomeDisplay({ children, css }) {
   return (
-    <div className="h-full relative">
+    <div className={css}>
       <BodySvg />
       {children}
     </div>
@@ -12,6 +12,7 @@ function HomeDisplay({ children }) {
 
 HomeDisplay.propTypes = {
   children: PropTypes.object.isRequired,
+  css: PropTypes.string.isRequired,
 };
 
 export default HomeDisplay;
