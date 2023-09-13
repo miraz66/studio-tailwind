@@ -2,6 +2,7 @@ import MainContainer from "../components/MainContainer";
 import HomeDisplay from "../components/HomeDisplay";
 import CultureSection from "../components/CultureSection";
 import Employee from "../components/Employee";
+import BodySvg from "../assets/BodySvg";
 
 function About() {
   return (
@@ -49,6 +50,31 @@ function About() {
         <CultureSection />
 
         <Employee />
+
+        <div className="h-screen mt-40 relative inset-x-0 -z-10 overflow-hidden rounded-t-4xl bg-gradient-to-b from-neutral-50">
+          <BodySvg />
+          <div className="top-0 left-0 w-full absolute">
+            <div className="max-w-7xl mx-auto px-5 py-40">
+              <div class="mx-auto max-w-2xl lg:max-w-none">
+                <div class="max-w-2xl" style="opacity: 1; transform: none;">
+                  <h2>
+                    <span class="block font-display tracking-tight [text-wrap:balance] text-2xl font-semibold text-neutral-950">
+                      From the blog
+                    </span>
+                  </h2>
+                  <div class="mt-6 text-xl text-neutral-600">
+                    <p>
+                      Our team of experienced designers and developers has just
+                      one thing on their mind; working on your ideas to draw a
+                      smile on the face of your users worldwide. From conducting
+                      Brand Sprints to UX Design.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </MainContainer>
     </>
   );
