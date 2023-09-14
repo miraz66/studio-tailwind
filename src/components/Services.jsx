@@ -34,7 +34,7 @@ export default function Services() {
                         data-nimg="1"
                         style={{
                           color: "transparent",
-                          aspectRatio: "655 / 680",
+                          aspectRatio: "719 / 680",
                         }}
                         sizes="(min-width: 1024px) 41rem, 31rem"
                         src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&w=828&q=75"

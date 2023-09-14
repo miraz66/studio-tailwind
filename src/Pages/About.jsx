@@ -3,6 +3,9 @@ import HomeDisplay from "../components/HomeDisplay";
 import CultureSection from "../components/CultureSection";
 import Employee from "../components/Employee";
 import BodySvg from "../assets/BodySvg";
+import TailUsProject from "../components/TailUsProject";
+import Footer from "../components/Footer";
+import TestHeader from "../components/test/TestHeader";
 
 function About() {
   return (
@@ -51,7 +54,7 @@ function About() {
 
         <Employee />
 
-        <div className="h-screen mt-40 relative inset-x-0 -z-10 overflow-hidden rounded-t-4xl bg-gradient-to-b from-neutral-50">
+        <div className="h-[40rem] mt-40 relative inset-x-0 -z-10 overflow-hidden rounded-t-4xl bg-gradient-to-b from-neutral-50">
           <BodySvg />
           <div className="top-0 left-0 w-full absolute">
             <div className="max-w-7xl mx-auto px-5 py-40">
@@ -165,7 +168,11 @@ function About() {
           </div>
         </div>
 
-        </>
+        <TailUsProject />
+
+        <TestHeader />
+
+        <Footer />
       </MainContainer>
     </>
   );
