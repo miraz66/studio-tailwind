@@ -203,6 +203,8 @@ export default function Process() {
         <div className=""></div>
         <div className=""></div>
         <div className=""></div>
+        <div className=""></div>
+        <div className=""></div>
       </MainContainer>
     </div>
   );
