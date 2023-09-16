@@ -6,11 +6,12 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import OurWork from "./Pages/OurWork";
 import Process from "./Pages/Process";
+import Blog from "./Pages/Blog";
 
 function App() {
   return (
     <>
-      <div className="font-display">
+      <div className="font-display overflow-x-hidden">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -18,6 +19,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/work" element={<OurWork />} />
             <Route path="/process" element={<Process />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </BrowserRouter>
       </div>
