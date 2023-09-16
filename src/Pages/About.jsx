@@ -5,7 +5,6 @@ import Employee from "../components/Employee";
 import BodySvg from "../assets/BodySvg";
 import TailUsProject from "../components/TailUsProject";
 import Footer from "../components/Footer";
-import TestHeader from "../components/test/TestHeader";
 
 function About() {
   return (
@@ -170,8 +169,6 @@ function About() {
 
         {/* ----Tail us for Project---- */}
         <TailUsProject />
-
-        <TestHeader />
 
         <Footer />
       </MainContainer>
