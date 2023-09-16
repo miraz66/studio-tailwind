@@ -1,5 +1,6 @@
 import MainContainer from "./MainContainer";
 import HomeDisplay from "./HomeDisplay";
+import WorkingProcessWebDevelopment from "./WorkingProcessWebDevelopment";
 
 export default function FutureOfWebDevelopment() {
   return (
@@ -27,6 +28,9 @@ export default function FutureOfWebDevelopment() {
             </div>
           </div>
         </HomeDisplay>
+
+        {/* ----Future Of Web-Development---- */}
+        <WorkingProcessWebDevelopment />
       </MainContainer>
     </>
   );
