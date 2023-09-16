@@ -1,45 +1,59 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Nav() {
+  const navigate = useNavigate();
+
   return (
     <div>
       <div className="pt-40">
         <div className="grid md:grid-cols-2 text-gray-100 md:border-y border-neutral-800">
-          <div className="md:py-6 lg:py-10 2xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 max-lg:border-y md:border-r border-neutral-800 flex items-center">
+          <div
+            onClick={() => navigate("/work")}
+            className="md:py-6 lg:py-10 2xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 max-lg:border-y md:border-r border-neutral-800 flex items-center cursor-pointer"
+          >
             <div
               style={{ wordSpacing: "-5px" }}
               className="w-2/3 md:mx-auto px-5 md:pl-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
-              <Link to={"/work"}>Our Works</Link>
+              Our Works
             </div>
           </div>
 
-          <div className="xl:py-16 hover:bg-neutral-900 max-lg:border-b border-neutral-800  ease-in-out duration-200 flex items-center">
+          <div
+            onClick={() => navigate("/about")}
+            className="xl:py-16 hover:bg-neutral-900 max-lg:border-b border-neutral-800  ease-in-out duration-200 flex items-center cursor-pointer"
+          >
             <div
               style={{ wordSpacing: "-5px" }}
               className="w-3/4 md:mx-auto max-lg:px-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
-              <Link to={"/about"}>About Us</Link>
+              About Us
             </div>
           </div>
         </div>
 
         <div className="grid md:grid-cols-2 text-gray-100 md:border-b border-neutral-800">
-          <div className="md:py-6 lg:py-10 2xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 max-lg:border-b md:border-r border-neutral-800 flex items-center">
+          <div
+            onClick={() => navigate("/work")}
+            className="md:py-6 lg:py-10 2xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 max-lg:border-b md:border-r border-neutral-800 flex items-center cursor-pointer"
+          >
             <div
               style={{ wordSpacing: "-5px" }}
               className="w-2/3 md:mx-auto px-5 md:pl-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
-              <Link to={"/process"}>Our Process</Link>
+              Our Process
             </div>
           </div>
 
-          <div className="md:py-10 xl:py-16 hover:bg-neutral-900 max-lg:border-b border-neutral-700 ease-in-out duration-200 flex items-center">
+          <div
+            onClick={() => navigate("/work")}
+            className="md:py-10 xl:py-16 hover:bg-neutral-900 max-lg:border-b border-neutral-700 ease-in-out duration-200 flex items-center cursor-pointer"
+          >
             <div
               style={{ wordSpacing: "-5px" }}
               className="w-3/4 md:mx-auto max-lg:px-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-semibold"
             >
-              <Link to={"/blog"}>Blog</Link>
+              Blog
             </div>
           </div>
         </div>
