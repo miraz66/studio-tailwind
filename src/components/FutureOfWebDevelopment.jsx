@@ -11,7 +11,7 @@ export default function FutureOfWebDevelopment() {
             <div className="max-w-7xl mx-auto px-5">
               <div className="text-center">
                 <h1>
-                  <span className="block font-display text-sm font-medium text-neutral-950">
+                  <span className="block font-display text-sm font-semibold text-neutral-950">
                     April 6, 2023
                   </span>
                   <span className="sr-only"> - </span>
@@ -19,7 +19,7 @@ export default function FutureOfWebDevelopment() {
                     The Future of Web Development: Our Predictions for 2023
                   </span>
                 </h1>
-                <div className="mt-6 text-base text-neutral-600">
+                <div className="mt-6 text-base text-neutral-500">
                   <p className="pb-10 text-neutral-600 font-medium tracking-tighter leading-8">
                     by Chelsea Hagon, Senior Developer
                   </p>
