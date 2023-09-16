@@ -1,6 +1,8 @@
 import MainContainer from "./MainContainer";
 import HomeDisplay from "./HomeDisplay";
 import WorkingProcessWebDevelopment from "./WorkingProcessWebDevelopment";
+import TailUsProject from "./TailUsProject";
+import Footer from "./Footer";
 
 export default function FutureOfWebDevelopment() {
   return (
@@ -31,6 +33,12 @@ export default function FutureOfWebDevelopment() {
 
         {/* ----Future Of Web-Development---- */}
         <WorkingProcessWebDevelopment />
+
+        {/* ----Tail us for Project---- */}
+        <TailUsProject />
+
+        {/* ----Footer Section---- */}
+        <Footer />
       </MainContainer>
     </>
   );

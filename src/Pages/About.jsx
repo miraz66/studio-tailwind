@@ -170,6 +170,7 @@ function About() {
         {/* ----Tail us for Project---- */}
         <TailUsProject />
 
+        {/* ----Footer Section---- */}
         <Footer />
       </MainContainer>
     </>
