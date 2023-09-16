@@ -30,7 +30,7 @@ export default function Nav() {
               style={{ wordSpacing: "-5px" }}
               className="w-2/3 md:mx-auto px-5 md:pl-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
-              Our Process
+              <Link to={"/process"}>Our Process</Link>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ export default function Nav() {
               style={{ wordSpacing: "-5px" }}
               className="w-3/4 md:mx-auto max-lg:px-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-semibold"
             >
-              Block
+              <Link to={"/blog"}>Blog</Link>
             </div>
           </div>
         </div>
