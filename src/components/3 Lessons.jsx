@@ -18,6 +18,8 @@ export default function Lessons() {
       <div className=""></div>
       <div className=""></div>
       <div className=""></div>
+      <div className=""></div>
+      <div className=""></div>
     </>
   );
 }
