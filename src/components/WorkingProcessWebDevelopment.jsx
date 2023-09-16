@@ -1,3 +1,5 @@
+import BodySvg from "../assets/BodySvg";
+
 export default function WorkingProcessWebDevelopment() {
   return (
     <>
@@ -118,6 +120,99 @@ export default function WorkingProcessWebDevelopment() {
           one.
         </p>
       </article>
+
+      {/* ----More Article---- */}
+      <div className="h-[40rem] mt-40 relative inset-x-0 -z-10 overflow-hidden rounded-t-[2.5rem] bg-gradient-to-b from-neutral-50">
+        <BodySvg />
+
+        <div className="top-0 left-0 w-full absolute">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+            <div className="mx-auto max-w-2xl lg:max-w-none">
+              <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
+                <div>
+                  <article>
+                    <div className="flex flex-col items-start pl-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px">
+                      <h3 className="mt-6 text-base font-semibold text-neutral-950">
+                        3 Lessons We Learned Going Back to the Office
+                      </h3>
+                      <time
+                        dateTime="2023-02-18"
+                        className="order-first text-sm text-neutral-600"
+                      >
+                        February 18, 2023
+                      </time>
+                      <p className="mt-2.5 text-base text-neutral-600">
+                        Earlier this year we made the bold decision to make
+                        everyone come back to the office full-time after two
+                        years working from a dressing table in the corner of
+                        their bedroom.
+                      </p>
+                      <a
+                        className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
+                        aria-label="Read more: 3 Lessons We Learned Going Back to the Office"
+                        href="/blog/3-lessons-we-learned-going-back-to-the-office"
+                      >
+                        Read more
+                        <svg
+                          viewBox="0 0 24 6"
+                          aria-hidden="true"
+                          className="w-6 flex-none fill-current"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M24 3 18 .5v2H0v1h18v2L24 3Z"
+                          ></path>
+                        </svg>
+                        <span className="absolute inset-0"></span>
+                      </a>
+                    </div>
+                  </article>
+                </div>
+                <div>
+                  <article>
+                    <div className="relative flex flex-col items-start pl-8 before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px">
+                      <h3 className="mt-6 text-base font-semibold text-neutral-950">
+                        A Short Guide to Component Naming
+                      </h3>
+                      <time
+                        dateTime="2022-12-01"
+                        className="order-first text-sm text-neutral-600"
+                      >
+                        December 1, 2022
+                      </time>
+                      <p className="mt-2.5 text-base text-neutral-600">
+                        As a developer, the most important aspect of your job is
+                        naming components. It’s not just about being descriptive
+                        and clear, but also about having fun and being creative.
+                      </p>
+                      <a
+                        className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
+                        aria-label="Read more: A Short Guide to Component Naming"
+                        href="/blog/a-short-guide-to-component-naming"
+                      >
+                        Read more
+                        <svg
+                          viewBox="0 0 24 6"
+                          aria-hidden="true"
+                          className="w-6 flex-none fill-current"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M24 3 18 .5v2H0v1h18v2L24 3Z"
+                          ></path>
+                        </svg>
+                        <span className="absolute inset-0"></span>
+                      </a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
