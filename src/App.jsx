@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact";
 import OurWork from "./Pages/OurWork";
 import Process from "./Pages/Process";
 import Blog from "./Pages/Blog";
+import FutureOfWebDevelopment from "./components/FutureOfWebDevelopment";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
             <Route path="/work" element={<OurWork />} />
             <Route path="/process" element={<Process />} />
             <Route path="/blog" element={<Blog />} />
+            <Route
+              path="/blog/future-of-web-development"
+              element={<FutureOfWebDevelopment />}
+            />
           </Routes>
         </BrowserRouter>
       </div>
