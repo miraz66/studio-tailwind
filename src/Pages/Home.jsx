@@ -27,10 +27,13 @@ function Home() {
           </div>
         </HomeDisplay>
 
+        {/* ----Company Workar people---- */}
         <WorkingPeople />
 
+        {/* ----Company Services Section---- */}
         <Services />
 
+        {/* ----Footer Section---- */}
         <Footer />
       </MainContainer>
     </>

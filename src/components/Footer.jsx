@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <>
-      <div className="max-w-7xl mx-auto px-5 bg-white pt-10 mt-28">
-        <div className="grid grid-cols-3">
-          <div className="col-span-2 grid grid-cols-4">
+      <div className="max-w-7xl mx-auto px-5 bg-white pt-10 mt-20 md:mt-28">
+        <div className="grid lg:grid-cols-3 max-lg:gap-10">
+          <div className="md:col-span-2 grid max-md:grid-rows-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <ul className="flex flex-col gap-3">
               <li className="text-base font-semibold">Work</li>
               <li className="text-neutral-600 text-sm font-medium hover:text-neutral-800 cursor-pointer ease-in-out duration-200">
@@ -56,6 +56,7 @@ export default function Footer() {
             </ul>
             <div></div>
           </div>
+
           <div>
             <form className="max-w-sm">
               <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
@@ -94,7 +95,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
+        <div className="pb-10 md:pb-20 mt-16 md:mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <a aria-label="Home" href="/">
             <svg
               viewBox="0 0 130 32"
