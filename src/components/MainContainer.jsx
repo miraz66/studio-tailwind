@@ -205,7 +205,7 @@ export default function MainContainer({ children }) {
           </div>
         </div>
 
-        <div className="h-[55rem] md:h-[48rem] lg:h-[43rem] xl:h-[53rem] 2xl:h-screen relative text-black bg-neutral-950">
+        <div className="h-screen md:h-[48rem] lg:h-[43rem] xl:h-[53rem] 2xl:h-screen relative text-black bg-neutral-950">
           {/* ----Navigation Section---- */}
           <Nav />
 
