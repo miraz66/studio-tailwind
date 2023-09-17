@@ -6,7 +6,7 @@ export default function WorkingPeople() {
       <div className="bg-white 2xl:pt-20">
         <div className="bg-black py-24 md:py-32 rounded-[50px]">
           <div className="max-w-7xl mx-5 md:mx-10 2xl:mx-auto">
-            <h5 className="pb-10 text-gray-50 text-xl font-semibold tracking-tight">
+            <h5 className="pb-10 text-gray-50 text-lg md:text-xl max-md:text-center font-semibold tracking-tight">
               We’ve worked with hundreds of amazing people
             </h5>
             <ul className="grid grid-rows-4 lg:grid-rows-2 grid-cols-2 lg:grid-cols-4 gap-10">
