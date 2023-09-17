@@ -12,7 +12,7 @@ import FutureOfWebDevelopment from "./components/FutureOfWebDevelopment";
 function App() {
   return (
     <>
-      <div className="font-display overflow-x-hidden">
+      <div className="font-display overflow-x-hidden bg-black">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />

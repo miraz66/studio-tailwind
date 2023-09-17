@@ -212,8 +212,8 @@ export default function MainContainer({ children }) {
           <div
             className={
               !isOpen
-                ? "bg-white h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-[55rem] absolute top-0 translate-y-full w-full ease-in-out duration-500 rounded-t-[2rem]"
-                : "bg-white h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-[55rem] absolute top-2  w-full ease-in-out duration-500 translate-y-0 rounded-t-[2rem]"
+                ? "bg-white h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-0 translate-y-full w-full ease-in-out duration-500 rounded-t-[2rem]"
+                : "bg-white h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-screen absolute top-2  w-full ease-in-out duration-500 translate-y-0 rounded-t-[2rem]"
             }
           >
             {children}

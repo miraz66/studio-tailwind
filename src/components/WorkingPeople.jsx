@@ -3,7 +3,7 @@ import BodySvg from "../assets/BodySvg";
 export default function WorkingPeople() {
   return (
     <>
-      <div className="bg-white 2xl:pt-20">
+      <div className="bg-white 2xl:pt-20 -mt-5">
         <div className="bg-black py-24 md:py-32 rounded-[50px]">
           <div className="max-w-7xl mx-5 md:mx-10 2xl:mx-auto">
             <h5 className="pb-10 text-gray-50 text-lg md:text-xl max-md:text-center font-semibold tracking-tight">
