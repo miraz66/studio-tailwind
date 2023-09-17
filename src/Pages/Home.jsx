@@ -27,7 +27,7 @@ function Home() {
           </div>
         </HomeDisplay>
 
-        <div className="bg-neutral-50">
+        <div className="bg-neutral-">
           {/* ----Company Workar people---- */}
           <WorkingPeople />
 
