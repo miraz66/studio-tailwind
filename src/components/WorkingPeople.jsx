@@ -4,12 +4,12 @@ export default function WorkingPeople() {
   return (
     <>
       <div className="bg-white pt-20">
-        <div className="bg-black py-32 rounded-[50px]">
-          <div className="max-w-7xl mx-auto">
-            <h5 className="pb-10 text-gray-100 text-xl font-semibold tracking-tight">
+        <div className="bg-black py-24 md:py-32 rounded-[50px]">
+          <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto">
+            <h5 className="pb-10 text-gray-50 text-xl font-semibold tracking-tight">
               We’ve worked with hundreds of amazing people
             </h5>
-            <ul className="grid grid-rows-2 grid-cols-4 gap-10">
+            <ul className="grid grid-rows-4 lg:grid-rows-2 grid-cols-2 lg:grid-cols-4 gap-10">
               <li>
                 <svg
                   width="184"
@@ -227,7 +227,7 @@ export default function WorkingPeople() {
 
         <div className="max-w-7xl mx-auto px-5 py-40">
           <div className="max-w-3xl">
-            <h2 className="text-5xl text-gray-800 font-medium tracking-tighter pb-5 leading-tight">
+            <h2 className="text-4xl md:text-5xl text-gray-800 font-medium tracking-tighter pb-5 leading-tight">
               Harnessing technology <br /> for a brighter future
             </h2>
             <p className="text-xl text-gray-800 pb-20 pt-3">

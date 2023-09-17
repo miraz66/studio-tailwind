@@ -29,7 +29,7 @@ export default function MainContainer({ children }) {
                   <svg
                     viewBox="0 0 130 32"
                     aria-hidden="true"
-                    className="group/logo h-8"
+                    className="group/logo h-8 max-sm:hidden"
                   >
                     <svg
                       viewBox="0 0 32 32"
@@ -67,7 +67,7 @@ export default function MainContainer({ children }) {
                   <svg
                     viewBox="0 0 130 32"
                     aria-hidden="true"
-                    className="group/logo h-8"
+                    className="group/logo h-8 max-sm:hidden"
                   >
                     <svg
                       viewBox="0 0 32 32"

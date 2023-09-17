@@ -10,8 +10,8 @@ function Home() {
       {/* ----MainContainer Section---- */}
       <MainContainer>
         <HomeDisplay css="h-[42rem] xl:h-[48rem] 2xl:h-screen relative">
-          <div className="absolute top-80 w-full">
-            <div className="max-w-7xl mx-auto">
+          <div className="absolute top-52 md:top-60 lg:top-80 w-full">
+            <div className="max-w-7xl xl:mx-auton lg:mx-10 mx-5">
               <div className="max-w-3xl">
                 <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-gray-800 font-semibold tracking-tight leading-10 lg:leading-[90px]">
                   Award-winning development studio based in Denmark.
