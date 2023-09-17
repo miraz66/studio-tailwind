@@ -13,7 +13,7 @@ export default function Nav() {
           >
             <div
               style={{ wordSpacing: "-5px" }}
-              className="w-2/3 md:mx-auto px-5 md:pl-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
+              className="w-2/3 md:mx-auto px-5 md:pl-5 max-lg:py-5 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
               Our Works
             </div>
@@ -25,7 +25,7 @@ export default function Nav() {
           >
             <div
               style={{ wordSpacing: "-5px" }}
-              className="w-3/4 md:mx-auto max-lg:px-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
+              className="w-3/4 md:mx-auto max-lg:px-5 max-lg:py-5 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
               About Us
             </div>
@@ -39,7 +39,7 @@ export default function Nav() {
           >
             <div
               style={{ wordSpacing: "-5px" }}
-              className="w-2/3 md:mx-auto px-5 md:pl-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
+              className="w-2/3 md:mx-auto px-5 md:pl-5 max-lg:py-5 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-medium"
             >
               Our Process
             </div>
@@ -51,7 +51,7 @@ export default function Nav() {
           >
             <div
               style={{ wordSpacing: "-5px" }}
-              className="w-3/4 md:mx-auto max-lg:px-5 max-lg:py-2 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-semibold"
+              className="w-3/4 md:mx-auto max-lg:px-5 max-lg:py-5 text-2xl md:text-3xl xl:text-5xl tracking-tighter font-semibold"
             >
               Blog
             </div>
@@ -59,7 +59,7 @@ export default function Nav() {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-4 gap-3 max-w-7xl mx-auto px-5 py-10">
+      <div className="grid md:grid-cols-4 gap-3 max-w-5xl 2xl:max-w-7xl mx-auto px-5 py-10">
         <div className="text-gray-100">
           <h2 className="text-xl font-medium">Our offices</h2>
 

@@ -1,7 +1,7 @@
 export default function TailUsProject() {
   return (
     <>
-      <div className="mt-20 md:mt-36 max-w-7xl mx-auto bg-neutral-950 py-20 md:py-24 px-5 md:px-10 xl:px-20 2xl:px-40 rounded-[60px]">
+      <div className="mt-20 md:mt-36 max-w-7xl mx-auto bg-neutral-950 py-20 md:py-24 px-6 md:px-10 xl:px-20 2xl:px-40 rounded-[60px]">
         <h3 className="pb-8 text-3xl md:text-4xl text-neutral-100 font-semibold tracking-tighter">
           Tell us about your project !
         </h3>

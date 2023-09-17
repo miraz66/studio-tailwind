@@ -3,9 +3,9 @@ import BodySvg from "../assets/BodySvg";
 export default function WorkingPeople() {
   return (
     <>
-      <div className="bg-white pt-20">
+      <div className="bg-white 2xl:pt-20">
         <div className="bg-black py-24 md:py-32 rounded-[50px]">
-          <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto">
+          <div className="max-w-7xl mx-5 md:mx-10 2xl:mx-auto">
             <h5 className="pb-10 text-gray-50 text-xl font-semibold tracking-tight">
               We’ve worked with hundreds of amazing people
             </h5>
@@ -356,7 +356,7 @@ export default function WorkingPeople() {
       <div className="h-[40rem] md:h-[32rem] lg:h-[28rem] bg-neutral-50 relative">
         <BodySvg />
         <div className="absolute top-0 w-full">
-          <div className="max-w-4xl mx-5 md:mx-10 xl:mx-auto my-auto py-28">
+          <div className="max-w-5xl mx-5 md:mx-10 xl:mx-auto my-auto py-28">
             <blockquote className="relative text-3xl font-medium tracking-tighter text-neutral-950 sm:text-4xl">
               <p className="after:content-['”'] before:content-['“'] sm:before:absolute sm:before:right-full">
                 The team at Studio went above and beyond with our onboarding,

@@ -19,8 +19,8 @@ export default function MainContainer({ children }) {
           <div
             className={
               !isOpen
-                ? "text-white px-5 absolute pt-16 pb-10 w-full left-0 flex justify-between items-center z-50 ease-in-out duration-300"
-                : "absolute px-5 pt-16 pb-10 w-full left-0 flex justify-between items-center z-50 ease-in-out duration-300"
+                ? "text-white px-5 absolute pt-16 pb-10 w-full left-0 flex justify-between items-center z-50 ease-in-out duration-500"
+                : "absolute px-5 pt-16 pb-10 w-full left-0 flex justify-between items-center z-50 ease-in-out duration-500"
             }
           >
             <div className="text-2xl font-bold">
@@ -205,15 +205,15 @@ export default function MainContainer({ children }) {
           </div>
         </div>
 
-        <div className="h-[45rem] xl:h-[48rem] 2xl:h-screen relative text-black bg-neutral-950">
+        <div className="h-[55rem] md:h-[48rem] lg:h-[43rem] xl:h-[53rem] 2xl:h-[60rem] relative text-black bg-neutral-950">
           {/* ----Navigation Section---- */}
           <Nav />
 
           <div
             className={
               !isOpen
-                ? "bg-white h-[43rem] xl:h-screen absolute top-0 translate-y-full w-full ease-in-out duration-500 rounded-t-[2rem]"
-                : "bg-white h-[43rem] xl:h-screen absolute top-2  w-full ease-in-out duration-500 translate-y-0 rounded-t-[2rem]"
+                ? "bg-white h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-[55rem] absolute top-0 translate-y-full w-full ease-in-out duration-500 rounded-t-[2rem]"
+                : "bg-white h-[50rem] md:h-[43rem] lg:h-[40rem] xl:h-[50rem] 2xl:h-[55rem] absolute top-2  w-full ease-in-out duration-500 translate-y-0 rounded-t-[2rem]"
             }
           >
             {children}
