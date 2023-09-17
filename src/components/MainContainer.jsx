@@ -205,15 +205,15 @@ export default function MainContainer({ children }) {
           </div>
         </div>
 
-        <div className="h-[42rem] xl:h-[48rem] 2xl:h-screen relative text-black bg-neutral-950">
+        <div className="h-[45rem] xl:h-[48rem] 2xl:h-screen relative text-black bg-neutral-950">
           {/* ----Navigation Section---- */}
           <Nav />
 
           <div
             className={
               !isOpen
-                ? "bg-white h-screen absolute top-0 translate-y-full w-full ease-in-out duration-500 rounded-t-[2rem]"
-                : "bg-white h-screen absolute top-2  w-full ease-in-out duration-500 translate-y-0 rounded-t-[2rem]"
+                ? "bg-white h-[43rem] xl:h-screen absolute top-0 translate-y-full w-full ease-in-out duration-500 rounded-t-[2rem]"
+                : "bg-white h-[43rem] xl:h-screen absolute top-2  w-full ease-in-out duration-500 translate-y-0 rounded-t-[2rem]"
             }
           >
             {children}
