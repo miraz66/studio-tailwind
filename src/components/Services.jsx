@@ -19,10 +19,7 @@ export default function Services() {
 
         <div className="lg:flex lg:items-center lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20">
           <div className="flex justify-center">
-            <div
-              className="w-[33.75rem] flex-none lg:w-[45rem]"
-              style={{ opacity: 1, transform: "none" }}
-            >
+            <div className="w-[33.75rem] flex-none lg:w-[45rem]">
               <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full grayscale">
                 <svg viewBox="0 0 655 680" fill="none" className="h-full">
                   <g clipPath="url(#:S1:-clip)" className="group">

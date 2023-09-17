@@ -27,14 +27,16 @@ function Home() {
           </div>
         </HomeDisplay>
 
-        {/* ----Company Workar people---- */}
-        <WorkingPeople />
+        <div className="bg-neutral-50">
+          {/* ----Company Workar people---- */}
+          <WorkingPeople />
 
-        {/* ----Company Services Section---- */}
-        <Services />
+          {/* ----Company Services Section---- */}
+          <Services />
 
-        {/* ----Footer Section---- */}
-        <Footer />
+          {/* ----Footer Section---- */}
+          <Footer />
+        </div>
       </MainContainer>
     </>
   );

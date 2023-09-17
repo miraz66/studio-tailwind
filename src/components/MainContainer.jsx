@@ -13,7 +13,7 @@ export default function MainContainer({ children }) {
 
   return (
     <>
-      <div className="bg-black">
+      <div>
         {/* ----Header Section---- */}
         <div className="relative md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl mx-auto font-sans">
           <div
