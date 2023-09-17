@@ -225,7 +225,7 @@ export default function WorkingPeople() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-5 py-40">
+        <div className="max-w-7xl mx-auto px-5 py-24 md:py-32 lg:py-40">
           <div className="max-w-3xl">
             <h2 className="text-4xl md:text-5xl text-gray-800 font-medium tracking-tighter pb-5 leading-tight">
               Harnessing technology <br /> for a brighter future
@@ -237,7 +237,7 @@ export default function WorkingPeople() {
             </p>
           </div>
 
-          <div className="grid grid-cols-3 gap-10">
+          <div className="grid lg:grid-cols-3 gap-5 md:gap-10">
             <div className="border p-8 rounded-3xl hover:bg-neutral-50 ease-in-out duration-200">
               <div className="">
                 <svg
@@ -352,10 +352,11 @@ export default function WorkingPeople() {
           </div>
         </div>
       </div>
-      <div className="h-[28rem] bg-neutral-50 relative">
+
+      <div className="h-[40rem] md:h-[32rem] lg:h-[28rem] bg-neutral-50 relative">
         <BodySvg />
         <div className="absolute top-0 w-full">
-          <div className="max-w-4xl mx-auto my-auto py-28">
+          <div className="max-w-4xl mx-5 md:mx-10 xl:mx-auto my-auto py-28">
             <blockquote className="relative text-3xl font-medium tracking-tighter text-neutral-950 sm:text-4xl">
               <p className="after:content-['”'] before:content-['“'] sm:before:absolute sm:before:right-full">
                 The team at Studio went above and beyond with our onboarding,
