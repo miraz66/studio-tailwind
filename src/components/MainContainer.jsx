@@ -162,8 +162,8 @@ export default function MainContainer({ children }) {
                 onClick={() => navigate("/contact")}
                 className={
                   isOpen
-                    ? "bg-gray-900 text-white px-5 py-1 md:py-2 rounded-full font-medium hover:bg-gray-600"
-                    : "bg-white text-black px-5 py-1 md:py-2 rounded-full font-medium hover:bg-gray-100"
+                    ? "bg-gray-900 text-white px-5 py-0.5 md:py-2 text-sm md:text-base rounded-full font-medium hover:bg-gray-600"
+                    : "bg-white text-black px-5 py-0.5 md:py-2 text-sm md:text-base rounded-full font-medium hover:bg-gray-100"
                 }
               >
                 Contact us
@@ -205,7 +205,7 @@ export default function MainContainer({ children }) {
           </div>
         </div>
 
-        <div className="h-[55rem] md:h-[48rem] lg:h-[43rem] xl:h-[53rem] 2xl:h-[60rem] relative text-black bg-neutral-950">
+        <div className="h-[55rem] md:h-[48rem] lg:h-[43rem] xl:h-[53rem] 2xl:h-screen relative text-black bg-neutral-950">
           {/* ----Navigation Section---- */}
           <Nav />
 
