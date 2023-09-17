@@ -353,7 +353,7 @@ export default function WorkingPeople() {
         </div>
       </div>
 
-      <div className="h-[40rem] md:h-[32rem] lg:h-[28rem] bg-neutral-50 relative">
+      <div className="h-[33rem] md:h-[32rem] lg:h-[28rem] bg-neutral-50 relative">
         <BodySvg />
         <div className="absolute top-0 w-full">
           <div className="max-w-5xl mx-5 md:mx-10 xl:mx-auto my-auto py-28">
