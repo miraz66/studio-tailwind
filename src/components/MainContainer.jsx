@@ -38,7 +38,7 @@ export default function MainContainer({ children }) {
                     >
                       <rect
                         clipPath="url(#:rn:-clip)"
-                        className="h-8 transition-all duration-300 fill-neutral-950 w-0 group-hover/logo:w-8"
+                        className="h-8 transition-all duration-500 fill-neutral-950 w-0 group-hover/logo:w-8"
                       ></rect>
                       <use
                         href="#:rn:-path"
@@ -76,7 +76,7 @@ export default function MainContainer({ children }) {
                     >
                       <rect
                         clipPath="url(#:rn:-clip)"
-                        className="h-8 transition-all duration-300 fill-neutral-50 w-0 group-hover/logo:w-8"
+                        className="h-8 transition-all duration-500 fill-neutral-50 w-0 group-hover/logo:w-8"
                       ></rect>
                       <use
                         href="#:rn:-path"

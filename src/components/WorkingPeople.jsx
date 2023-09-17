@@ -357,7 +357,7 @@ export default function WorkingPeople() {
         <BodySvg />
         <div className="absolute top-0 w-full">
           <div className="max-w-5xl mx-5 md:mx-10 xl:mx-auto my-auto py-28">
-            <blockquote className="relative text-3xl font-medium tracking-tighter text-neutral-950 sm:text-4xl">
+            <blockquote className="relative text-2xl md:text-3xl font-medium tracking-tighter text-neutral-950 sm:text-4xl">
               <p className="after:content-['”'] before:content-['“'] sm:before:absolute sm:before:right-full">
                 The team at Studio went above and beyond with our onboarding,
                 even finding a way to access the user’s microphone without
