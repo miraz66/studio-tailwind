@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
       <div className="bg-white pt-28">
-        <div className="max-w-7xl mx-auto px-5 pt-10">
+        <div className="max-w-7xl mx-auto px-5 xl:px-10 pt-10">
           <div className="grid lg:grid-cols-3 max-lg:gap-10">
             <div className="md:col-span-2 grid max-md:grid-rows-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <ul className="flex flex-col gap-3">

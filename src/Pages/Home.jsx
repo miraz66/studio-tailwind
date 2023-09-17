@@ -9,7 +9,7 @@ function Home() {
     <>
       {/* ----MainContainer Section---- */}
       <MainContainer>
-        <HomeDisplay css="h-[42rem] lg:h-[50rem] xl:h-[48rem] 2xl:h- relative rounded-[40px]">
+        <HomeDisplay css="h-[42rem] lg:h-[50rem] xl:h-[48rem] 2xl:h- relative rounded-t-[40px]">
           <div className="absolute top-52 md:top-60 lg:top-72 xl:top-80 w-full">
             <div className="max-w-7xl mx-5 lg:mx-10 2xl:mx-auto">
               <div className="max-w-3xl">
