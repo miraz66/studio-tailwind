@@ -11,7 +11,7 @@ function About() {
     <>
       <MainContainer>
         <HomeDisplay css="h-[50rem] lg:h-[40rem] xl:h-[45rem] 2xl:h-screen relative">
-          <div className="absolute top-60 w-full">
+          <div className="absolute top-48 md:top-60 w-full">
             <div className="max-w-7xl mx-auto px-5">
               <div className="">
                 <h1>
