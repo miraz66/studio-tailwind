@@ -9,16 +9,16 @@ export default function OurWork() {
   return (
     <>
       <MainContainer>
-        <HomeDisplay css="h-[42rem] xl:h-[48rem] 2xl:h-[40rem] rounded-t-[40px] relative bg-white">
-          <div className="absolute top-64 w-full">
+        <HomeDisplay css="h-[45rem] xl:h-[48rem] 2xl:h-[40rem] rounded-t-[40px] relative bg-white">
+          <div className="absolute top-60 md:top-64 w-full">
             <div className="max-w-7xl mx-auto px-5 xl:px-10">
-              <div className="">
+              <div>
                 <h1>
                   <span className="block font-display text-base font-semibold text-neutral-950">
                     Our work
                   </span>
                   <span className="sr-only"> - </span>
-                  <span className="mt-6 block max-w-7xl font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance] sm:text-5xl">
+                  <span className="mt-6 block max-w-7xl text-4xl sm:text-5xl font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance]">
                     Proven solutions for real-world problems.
                   </span>
                 </h1>
