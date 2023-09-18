@@ -10,7 +10,7 @@ export default function OurWork() {
     <>
       <MainContainer>
         <HomeDisplay css="h-[45rem] xl:h-[48rem] 2xl:h-[40rem] rounded-t-[40px] relative bg-white">
-          <div className="absolute top-48 md:top-64 w-full">
+          <div className="absolute top-52 md:top-64 w-full">
             <div className="max-w-7xl mx-auto px-5 xl:px-10">
               <div>
                 <h1>
