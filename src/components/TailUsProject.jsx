@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 export default function TailUsProject() {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="bg-white pt-40">
@@ -6,7 +10,10 @@ export default function TailUsProject() {
           <h3 className="pb-8 text-3xl md:text-4xl text-neutral-100 font-semibold tracking-tighter">
             Tell us about your project !
           </h3>
-          <button className="px-3 md:px-5 py-1 md:py-2 text-base rounded-full bg-neutral-100 font-medium hover:bg-neutral-200 ease-in-out duration-200">
+          <button
+            onClick={() => navigate("/contact")}
+            className="px-3 md:px-5 py-1 md:py-2 text-base rounded-full bg-neutral-100 font-medium hover:bg-neutral-200 ease-in-out duration-200"
+          >
             Say Hei
           </button>
 
