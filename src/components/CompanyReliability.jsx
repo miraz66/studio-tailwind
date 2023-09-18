@@ -3,8 +3,8 @@ import BodySvg from "../assets/BodySvg";
 export default function CompanyReliability() {
   return (
     <>
-      <div className="bg-white">
-        <div className="relative h-[60rem] rounded-[50px] overflow-hidden">
+      <div className="bg-white pt-40">
+        <div className="relative h-[48rem] rounded-t-[3rem] bg-gradient-to-b from-neutral-50 overflow-hidden">
           <BodySvg />
 
           <div className="absolute top-0 w-full pt-48">
