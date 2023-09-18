@@ -9,8 +9,8 @@ export default function Blog() {
     <>
       <div className="">
         <MainContainer>
-          <HomeDisplay css="h-[42rem] xl:h-[48rem] 2xl:h-[28rem] relative">
-            <div className="absolute top-56 w-full">
+          <HomeDisplay css="h-[35rem] md:h-[30rem] lg:h-[25rem] 2xl:h-[28rem] relative">
+            <div className="absolute top-52 md:top-56 w-full">
               <div className="max-w-7xl mx-auto px-5">
                 <div className="">
                   <h1>
@@ -18,7 +18,7 @@ export default function Blog() {
                       Blog
                     </span>
                     <span className="sr-only"> - </span>
-                    <span className="mt-6 block max-w-7xl font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance] sm:text-5xl">
+                    <span className="mt-6 block max-w-7xl text-5xl md:text-5xl font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance]">
                       The latest articles and news
                     </span>
                   </h1>

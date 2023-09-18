@@ -34,7 +34,7 @@ export default function Nav() {
 
         <div className="grid md:grid-cols-2 text-gray-100 md:border-b border-neutral-800">
           <div
-            onClick={() => navigate("/work")}
+            onClick={() => navigate("/process")}
             className="md:py-6 lg:py-10 2xl:py-16 hover:bg-neutral-900 ease-in-out duration-200 max-lg:border-b md:border-r border-neutral-800 flex items-center cursor-pointer"
           >
             <div
@@ -46,7 +46,7 @@ export default function Nav() {
           </div>
 
           <div
-            onClick={() => navigate("/work")}
+            onClick={() => navigate("/blog")}
             className="md:py-10 xl:py-16 hover:bg-neutral-900 max-lg:border-b border-neutral-700 ease-in-out duration-200 flex items-center cursor-pointer"
           >
             <div
