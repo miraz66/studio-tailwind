@@ -18,7 +18,7 @@ export default function OurWork() {
                     Our work
                   </span>
                   <span className="sr-only"> - </span>
-                  <span className="mt-6 block max-w-7xl text-4xl sm:text-5xl font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance]">
+                  <span className="mt-6 block max-w-7xl text-5xl sm:text-5xl font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance]">
                     Proven solutions for real-world problems.
                   </span>
                 </h1>
