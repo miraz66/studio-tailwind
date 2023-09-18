@@ -19,7 +19,7 @@ export default function Process() {
                     Our process
                   </span>
                   <span className="sr-only"> - </span>
-                  <span className="mt-6 block max-w-7xl font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance] sm:text-5xl">
+                  <span className="mt-6 block max-w-7xl text-4xl md:text-5xl font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance]">
                     How we work
                   </span>
                 </h1>

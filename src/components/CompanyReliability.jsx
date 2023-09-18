@@ -3,13 +3,13 @@ import BodySvg from "../assets/BodySvg";
 export default function CompanyReliability() {
   return (
     <>
-      <div className="bg-white pt-40">
-        <div className="relative h-[48rem] rounded-t-[3rem] bg-gradient-to-b from-neutral-50 overflow-hidden">
+      <div className="bg-white pt-20 md:pt-40">
+        <div className="relative h-[98rem] md:h-[48rem] rounded-t-[3rem] bg-gradient-to-b from-neutral-50 overflow-hidden">
           <BodySvg />
 
-          <div className="absolute top-0 w-full pt-48">
-            <div className="mx-auto max-w-7xl px- lg:px-8 ">
-              <div className="mx-auto max-w-2xl lg:max-w-none">
+          <div className="absolute top-0 w-full pt-32 md:pt-48">
+            <div className="max-w-7xl mx-5 xl:mx-10 2xl:mx-auto lg:px-8 ">
+              <div className="max-w-2xl mx-auto lg:max-w-none">
                 <div className="max-w-3xl">
                   <h2>
                     <span className="mb-6 block font-display text-base font-semibold text-neutral-950">
