@@ -30,8 +30,10 @@ export default function Contact() {
           </div>
         </HomeDisplay>
 
+        {/* ----Contact Information---- */}
         <ContactInformation />
 
+        {/* ----Footer---- */}
         <Footer />
       </MainContainer>
     </>
