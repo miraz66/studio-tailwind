@@ -54,7 +54,7 @@ function About() {
         <Employee />
 
         <div className="bg-white pt-28 md:pt-40">
-          <div className="h-[77rem] md:h-[40rem] relative inset-x-0 overflow-hidden rounded-t-[3rem] bg-gradient-to-b from-neutral-50">
+          <div className="h-[77rem] md:h-[56rem] lg:h-[43rem] xl:h-[38rem] relative inset-x-0 overflow-hidden rounded-t-[3rem] bg-gradient-to-b from-neutral-50">
             <BodySvg />
             <div className="top-0 left-0 w-full absolute">
               <div className="max-w-7xl mx-auto px-5 py-40">
