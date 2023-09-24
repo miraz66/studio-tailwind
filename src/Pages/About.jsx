@@ -5,8 +5,11 @@ import Employee from "../components/Employee";
 import BodySvg from "../assets/BodySvg";
 import TailUsProject from "../components/TailUsProject";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 function About() {
+  const navigate = useNavigate();
+
   return (
     <>
       <MainContainer>
@@ -59,10 +62,7 @@ function About() {
             <div className="top-0 left-0 w-full absolute">
               <div className="max-w-7xl mx-auto px-5 py-40">
                 <div className="mx-auto max-w-2xl lg:max-w-none">
-                  <div
-                    className="max-w-2xl"
-                    style={{ opacity: 1, transform: "none" }}
-                  >
+                  <div className="max-w-2xl">
                     <h2>
                       <span className="block font-display tracking-tighter [text-wrap:balance] text-2xl font-semibold text-neutral-950">
                         From the blog
@@ -81,7 +81,7 @@ function About() {
 
                 <div className="mx-auto max-w-2xl lg:max-w-none mt-28">
                   <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
-                    <div style={{ opacity: 1, transform: "none" }}>
+                    <div>
                       <article>
                         <div className="relative flex flex-col items-start pl-8 before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px">
                           <h3 className="mt-6 text-base font-semibold text-neutral-950">
@@ -100,10 +100,12 @@ function About() {
                             for how they will shape the industry in the coming
                             year.
                           </p>
-                          <a
+                          <button
                             className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                             aria-label="Read more: The Future of Web Development: Our Predictions for 2023"
-                            href="/blog/future-of-web-development"
+                            onClick={() =>
+                              navigate("/blog/future-of-web-development")
+                            }
                           >
                             Read more
                             <svg
@@ -118,11 +120,12 @@ function About() {
                               ></path>
                             </svg>
                             <span className="absolute inset-0"></span>
-                          </a>
+                          </button>
                         </div>
                       </article>
                     </div>
-                    <div style={{ opacity: 1, transform: "none" }}>
+
+                    <div>
                       <article>
                         <div className="flex flex-col items-start pl-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px">
                           <h3 className="mt-6 text-base font-semibold text-neutral-950">
@@ -140,10 +143,14 @@ function About() {
                             years working from a dressing table in the corner of
                             their bedroom.
                           </p>
-                          <a
+                          <button
                             className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                             aria-label="Read more: 3 Lessons We Learned Going Back to the Office"
-                            href="/blog/3-lessons-we-learned-going-back-to-the-office"
+                            onClick={() =>
+                              navigate(
+                                "/blog/3-lessons-we-learned-going-back-to-the-office"
+                              )
+                            }
                           >
                             Read more
                             <svg
@@ -158,7 +165,7 @@ function About() {
                               ></path>
                             </svg>
                             <span className="absolute inset-0"></span>
-                          </a>
+                          </button>
                         </div>
                       </article>
                     </div>
