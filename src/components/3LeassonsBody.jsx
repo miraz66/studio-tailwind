@@ -154,7 +154,7 @@ export default function LeassonsBody() {
                           being creative.
                         </p>
                         <button
-                          className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
+                          className="mt-6 flex items-center gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                           aria-label="Read more: A Short Guide to Component Naming"
                           onClick={() =>
                             navigate("/blog/a-short-guide-to-component-naming")

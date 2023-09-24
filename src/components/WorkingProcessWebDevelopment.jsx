@@ -21,21 +21,19 @@ export default function WorkingProcessWebDevelopment() {
                 over the bugs they write.
               </p>
             </div>
-            <div className="group isolate my-10 overflow-hidden rounded-4xl max-sm:-mx-6">
-              <div className="group relative">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="2400"
-                  height="1600"
-                  decoding="async"
-                  data-nimg="1"
-                  className="w-full object-cover rounded-[2.5rem]"
-                  sizes="(min-width: 768px) 42rem, 100vw"
-                  src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpilot.139e6ddc.jpg&w=1080&q=75"
-                  style={{ color: "transparent" }}
-                />
-              </div>
+            <div className="group relative">
+              <img
+                alt=""
+                loading="lazy"
+                width="2400"
+                height="1600"
+                decoding="async"
+                data-nimg="1"
+                className="w-full my-10 object-cover rounded-[2.5rem]"
+                sizes="(min-width: 768px) 42rem, 100vw"
+                src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpilot.139e6ddc.jpg&w=1080&q=75"
+                style={{ color: "transparent" }}
+              />
             </div>
 
             <div className="max-lg:mx-5">
@@ -67,20 +65,19 @@ export default function WorkingProcessWebDevelopment() {
                 Progressive Hydration work.
               </p>
             </div>
-            <div className="isolate my-10 overflow-hidden rounded-4xl max-sm:-mx-6">
-              <img
-                alt=""
-                loading="lazy"
-                width="2400"
-                height="1600"
-                decoding="async"
-                data-nimg="1"
-                className="w-full object-cover rounded-[2.5rem]"
-                sizes="(min-width: 768px) 42rem, 100vw"
-                src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fserver.5e002a1b.jpg&w=1080&q=75"
-                style={{ color: "transparent" }}
-              />
-            </div>
+
+            <img
+              alt=""
+              loading="lazy"
+              width="2400"
+              height="1600"
+              decoding="async"
+              data-nimg="1"
+              className="w-full my-10 object-cover rounded-[2.5rem]"
+              sizes="(min-width: 768px) 42rem, 100vw"
+              src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fserver.5e002a1b.jpg&w=1080&q=75"
+              style={{ color: "transparent" }}
+            />
 
             <div className="max-lg:mx-5">
               <p className="text-lg font-medium text-neutral-800 tracking-tight">
@@ -109,22 +106,20 @@ export default function WorkingProcessWebDevelopment() {
               </p>
             </div>
 
-            <div className="isolate my-10 overflow-hidden rounded-4xl max-sm:-mx-6">
-              <img
-                alt=""
-                loading="lazy"
-                width="2400"
-                height="1600"
-                decoding="async"
-                data-nimg="1"
-                className="w-full object-cover rounded-[2.5rem]"
-                sizes="(min-width: 768px) 42rem, 100vw"
-                src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.50d2f342.jpg&w=1080&q=75"
-                style={{
-                  color: "transparent",
-                }}
-              />
-            </div>
+            <img
+              alt=""
+              loading="lazy"
+              width="2400"
+              height="1600"
+              decoding="async"
+              data-nimg="1"
+              className="w-full my-10 object-cover rounded-[2.5rem]"
+              sizes="(min-width: 768px) 42rem, 100vw"
+              src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.50d2f342.jpg&w=1080&q=75"
+              style={{
+                color: "transparent",
+              }}
+            />
           </div>
           <p className="max-lg:mx-5 text-lg font-medium text-neutral-800 tracking-tight">
             In 2023 we can expect even faster and more specialised JS runtimes
