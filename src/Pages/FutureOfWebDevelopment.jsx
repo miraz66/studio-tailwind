@@ -8,8 +8,8 @@ export default function FutureOfWebDevelopment() {
   return (
     <>
       <MainContainer>
-        <HomeDisplay css="h-[38rem] md:h-[42rem] xl:h-[48rem] 2xl:h-[30rem] relative">
-          <div className="absolute top-64 w-full">
+        <HomeDisplay css="h-[35rem] md:h-[42rem] xl:h-[48rem] 2xl:h-[30rem] relative">
+          <div className="absolute top-52 md:top-64 w-full">
             <div className="max-w-7xl mx-auto px-5">
               <div className="text-center">
                 <h1>
