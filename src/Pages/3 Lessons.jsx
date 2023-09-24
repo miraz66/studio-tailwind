@@ -21,7 +21,7 @@ export default function Lessons() {
                     3 Lessons We Learned Going Back to the Office
                   </h1>
                 </h1>
-                <div className="mt-6 text md:text-base text-neutral-500">
+                <div className="mt-6 text-sm md:text-base text-neutral-500">
                   <p className="pb-10 text-neutral-600 font-medium tracking-tighter leading-8">
                     by Leslie Alexander, Co-Founder / CEO
                   </p>
