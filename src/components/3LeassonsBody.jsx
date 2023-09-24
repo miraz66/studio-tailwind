@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import BodySvg from "../assets/BodySvg";
 
 export default function LeassonsBody() {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="bg-white">
@@ -147,10 +150,12 @@ export default function LeassonsBody() {
                           descriptive and clear, but also about having fun and
                           being creative.
                         </p>
-                        <a
+                        <button
                           className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                           aria-label="Read more: A Short Guide to Component Naming"
-                          href="/blog/a-short-guide-to-component-naming"
+                          onClick={() =>
+                            navigate("/blog/a-short-guide-to-component-naming")
+                          }
                         >
                           Read more
                           <svg
@@ -165,7 +170,7 @@ export default function LeassonsBody() {
                             ></path>
                           </svg>
                           <span className="absolute inset-0"></span>
-                        </a>
+                        </button>
                       </div>
                     </article>
                   </div>
@@ -189,10 +194,14 @@ export default function LeassonsBody() {
                           for how they will shape the industry in the coming
                           year.
                         </p>
-                        <a
+                        <button
                           className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                           aria-label="Read more: 3 Lessons We Learned Going Back to the Office"
-                          href="/blog/3-lessons-we-learned-going-back-to-the-office"
+                          onClick={() =>
+                            navigate(
+                              "/blog/3-lessons-we-learned-going-back-to-the-office"
+                            )
+                          }
                         >
                           Read more
                           <svg
@@ -207,7 +216,7 @@ export default function LeassonsBody() {
                             ></path>
                           </svg>
                           <span className="absolute inset-0"></span>
-                        </a>
+                        </button>
                       </div>
                     </article>
                   </div>

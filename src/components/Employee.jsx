@@ -117,12 +117,9 @@ export default function Employee() {
             </div>
 
             <div>
-              <div
-                className="relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px"
-                style={{ opacity: 1, transform: "none" }}
-              ></div>
-              <div className="grid grid-cols-1 gap-6 pt-12 sm:pt-16 lg:grid-cols-4 xl:gap-8">
-                <div style={{ opacity: 1, transform: "none" }}>
+              <div className="max-md:mt-10 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px"></div>
+              <div className="grid grid-cols-1 gap-6 pt-5 sm:pt-16 lg:grid-cols-4 xl:gap-8">
+                <div>
                   <h2 className="font-display text-2xl font-semibold text-neutral-950">
                     Team
                   </h2>
