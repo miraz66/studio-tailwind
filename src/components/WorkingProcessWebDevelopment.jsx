@@ -214,7 +214,7 @@ export default function WorkingProcessWebDevelopment() {
                           their bedroom.
                         </p>
                         <button
-                          className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
+                          className="mt-6 flex items-center gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                           aria-label="Read more: 3 Lessons We Learned Going Back to the Office"
                           onClick={() =>
                             navigate(
