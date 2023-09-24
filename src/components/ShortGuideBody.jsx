@@ -1,6 +1,9 @@
+import { useState } from "react";
 import BodySvg from "../assets/BodySvg";
 
 export default function ShortGuideBody() {
+  const navigate = useState()
+
   return (
     <>
       <div className="bg-white">
@@ -144,10 +147,11 @@ export default function ShortGuideBody() {
                           for how they will shape the industry in the coming
                           year.
                         </p>
-                        <a
+                        <button
                           className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                           aria-label="Read more: 3 Lessons We Learned Going Back to the Office"
                           href="/blog/future-of-web-development"
+                          onClick={}
                         >
                           Read more
                           <svg
@@ -162,7 +166,7 @@ export default function ShortGuideBody() {
                             ></path>
                           </svg>
                           <span className="absolute inset-0"></span>
-                        </a>
+                        </button>
                       </div>
                     </article>
                   </div>
