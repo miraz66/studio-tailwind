@@ -17,11 +17,11 @@ export default function Lessons() {
                     February 18, 2023
                   </span>
                   <span className="sr-only"> - </span>
-                  <h1 className="mt-6 block font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance] sm:text-5xl">
+                  <h1 className="mt-6 text-5xl block font-display font-semibold tracking-tighter text-neutral-800 [text-wrap:balance]">
                     3 Lessons We Learned Going Back to the Office
                   </h1>
                 </h1>
-                <div className="mt-6 text-base text-neutral-500">
+                <div className="mt-6 text md:text-base text-neutral-500">
                   <p className="pb-10 text-neutral-600 font-medium tracking-tighter leading-8">
                     by Leslie Alexander, Co-Founder / CEO
                   </p>
