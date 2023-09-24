@@ -102,7 +102,7 @@ export default function LeassonsBody() {
                 the highest paid employee, after management.
               </p>
             </div>
-            <div className="group relative p">
+            <div className="group relative pt-10">
               <img
                 alt=""
                 loading="lazy"
@@ -119,7 +119,7 @@ export default function LeassonsBody() {
         </div>
 
         {/* ----More Article---- */}
-        <div className="h-[30rem] mt-40 relative overflow-hidden rounded-t-[3rem] bg-gradient-to-b from-neutral-50">
+        <div className="h-[30rem] lg:mt-40 relative overflow-hidden rounded-t-[3rem] bg-gradient-to-b from-neutral-50">
           <BodySvg />
           <div className="top-0 left-0 w-full absolute">
             <div className="max-w-7xl mx-auto px-5 py-40">
