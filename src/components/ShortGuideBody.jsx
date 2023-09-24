@@ -2,7 +2,7 @@ import { useState } from "react";
 import BodySvg from "../assets/BodySvg";
 
 export default function ShortGuideBody() {
-  const navigate = useState()
+  const navigate = useState();
 
   return (
     <>
@@ -148,10 +148,11 @@ export default function ShortGuideBody() {
                           year.
                         </p>
                         <button
-                          className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
+                          className="mt-6 flex gap-x-3 items-center text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                           aria-label="Read more: 3 Lessons We Learned Going Back to the Office"
-                          href="/blog/future-of-web-development"
-                          onClick={}
+                          onClick={() =>
+                            navigate("/blog/future-of-web-development")
+                          }
                         >
                           Read more
                           <svg
@@ -190,7 +191,7 @@ export default function ShortGuideBody() {
                           their bedroom.
                         </p>
                         <a
-                          className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
+                          className="mt-6 flex items-center gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                           aria-label="Read more: 3 Lessons We Learned Going Back to the Office"
                           href="/blog/3-lessons-we-learned-going-back-to-the-office"
                         >
