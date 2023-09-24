@@ -109,7 +109,7 @@ export default function ShortGuideBody() {
         </article>
 
         {/* ----More Article---- */}
-        <div className="h-[55rem] md:h-[30rem] mt-20 md:mt-40 relative overflow-hidden rounded-t-[3rem] bg-gradient-to-b from-neutral-50">
+        <div className="h-[56rem] md:h-[30rem] mt-20 md:mt-40 relative overflow-hidden rounded-t-[3rem] bg-gradient-to-b from-neutral-50">
           <BodySvg />
           <div className="top-0 left-0 w-full absolute">
             <div className="max-w-7xl mx-auto px-5 pt-28 md:py-40">
