@@ -136,7 +136,7 @@ export default function WorkingProcessWebDevelopment() {
         </article>
 
         {/* ----More Article---- */}
-        <div className="h-[50rem] md:h-[46rem] lg:h-[30rem] mt-20 lg:mt-40 relative overflow-hidden rounded-t-[3rem] bg-gradient-to-b from-neutral-50">
+        <div className="h-[55rem] md:h-[46rem] lg:h-[30rem] mt-20 lg:mt-40 relative overflow-hidden rounded-t-[3rem] bg-gradient-to-b from-neutral-50">
           <BodySvg />
           <div className="top-0 left-0 w-full absolute">
             <div className="max-w-7xl mx-auto px-5 pt-28 md:py-40">
@@ -171,7 +171,7 @@ export default function WorkingProcessWebDevelopment() {
                           being creative.
                         </p>
                         <button
-                          className="mt-6 flex gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
+                          className="mt-6 flex items-center gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                           aria-label="Read more: A Short Guide to Component Naming"
                           onClick={() =>
                             navigate("/blog/a-short-guide-to-component-naming")

@@ -1,8 +1,8 @@
-import { useState } from "react";
 import BodySvg from "../assets/BodySvg";
+import { useNavigate } from "react-router-dom";
 
 export default function ShortGuideBody() {
-  const navigate = useState();
+  const navigate = useNavigate();
 
   return (
     <>
@@ -190,10 +190,14 @@ export default function ShortGuideBody() {
                           years working from a dressing table in the corner of
                           their bedroom.
                         </p>
-                        <a
+                        <button
                           className="mt-6 flex items-center gap-x-3 text-base font-semibold text-neutral-950 transition hover:text-neutral-700"
                           aria-label="Read more: 3 Lessons We Learned Going Back to the Office"
-                          href="/blog/3-lessons-we-learned-going-back-to-the-office"
+                          onClick={() =>
+                            navigate(
+                              "/blog/3-lessons-we-learned-going-back-to-the-office"
+                            )
+                          }
                         >
                           Read more
                           <svg
@@ -208,7 +212,7 @@ export default function ShortGuideBody() {
                             ></path>
                           </svg>
                           <span className="absolute inset-0"></span>
-                        </a>
+                        </button>
                       </div>
                     </article>
                   </div>
