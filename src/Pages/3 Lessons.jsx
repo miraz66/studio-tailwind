@@ -8,7 +8,7 @@ export default function Lessons() {
   return (
     <>
       <MainContainer>
-        <HomeDisplay css="h-[36rem] xl:h-[48rem] 2xl:h-[30rem] relative">
+        <HomeDisplay css="h-[32rem] xl:h-[48rem] 2xl:h-[30rem] relative">
           <div className="absolute top-52 md:top-64 w-full">
             <div className="max-w-4xl mx-auto px-5">
               <div className="text-center">
