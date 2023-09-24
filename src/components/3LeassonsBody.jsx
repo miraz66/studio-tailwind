@@ -40,7 +40,6 @@ export default function LeassonsBody() {
               </div>
             </div>
           </div>
-          <div className="group isolate my-10 overflow-hidden rounded-4xl bg-neutral-100 max-sm:-mx-6"></div>
           <img
             alt=""
             loading="lazy"
@@ -74,51 +73,47 @@ export default function LeassonsBody() {
               hire anyone with more than 3 months experience again.
             </p>
           </div>
-          <div className="group isolate overflow-hidden rounded-4xl max-sm:-mx-6">
-            <div className="group relative">
+          <div className="group relative">
+            <img
+              alt=""
+              loading="lazy"
+              width="2400"
+              height="1600"
+              decoding="async"
+              data-nimg="1"
+              className="w-full mt-10 rounded-[2.5rem] object-cover"
+              sizes="(min-width: 768px) 42rem, 100vw"
+              src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraduation.137b04f5.jpg&w=1080&q=75"
+            />
+            <div className="mx-5">
+              <h2 className="pb-10 pt-32 text-2xl font-semibold tracking-tighter">
+                3. Cost Efficiency
+              </h2>
+              <p>
+                Demand is at an all time low for commercial real-estate, which
+                means it’s never been more affordable to cram forty people into
+                an open plan office.
+              </p>
+              <p>
+                What’s more, is we’ve found that we can offer extremely low-cost
+                perks like a snack cupboard or free beer in-lieu of higher
+                salaries. For every foosball table we buy, we find we can offer
+                around 5% less salary per job posting. Our full-time barista is
+                the highest paid employee, after management.
+              </p>
+            </div>
+            <div className="group relative p">
               <img
                 alt=""
                 loading="lazy"
                 width="2400"
-                height="1600"
+                height="1800"
                 decoding="async"
                 data-nimg="1"
-                className="w-full mt-10 rounded-[2.5rem] object-cover"
+                className="w-full rounded-[2.5rem] object-cover"
                 sizes="(min-width: 768px) 42rem, 100vw"
-                src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgraduation.137b04f5.jpg&w=1080&q=75"
+                src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjars.8b4cb929.jpg&w=1080&q=75"
               />
-              <div className="mx-5">
-                <h2 className="pb-10 pt-32 text-2xl font-semibold tracking-tighter">
-                  3. Cost Efficiency
-                </h2>
-                <p>
-                  Demand is at an all time low for commercial real-estate, which
-                  means it’s never been more affordable to cram forty people
-                  into an open plan office.
-                </p>
-                <p>
-                  What’s more, is we’ve found that we can offer extremely
-                  low-cost perks like a snack cupboard or free beer in-lieu of
-                  higher salaries. For every foosball table we buy, we find we
-                  can offer around 5% less salary per job posting. Our full-time
-                  barista is the highest paid employee, after management.
-                </p>
-              </div>
-              <div className="group isolate my-10 overflow-hidden rounded-4xl max-sm:-mx-6">
-                <div className="group relative">
-                  <img
-                    alt=""
-                    loading="lazy"
-                    width="2400"
-                    height="1800"
-                    decoding="async"
-                    data-nimg="1"
-                    className="w-full rounded-[2.5rem] object-cover"
-                    sizes="(min-width: 768px) 42rem, 100vw"
-                    src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjars.8b4cb929.jpg&w=1080&q=75"
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </div>
