@@ -9,7 +9,7 @@ export default function WorkingProcessWebDevelopment() {
       <div className="bg-white">
         <article className="mx-auto max-w-3xl mt-24 sm:mt-32 lg:mt-40">
           <div className="mx-auto max-w-2xl lg:max-w-none">
-            <div className="max-md:mx-5">
+            <div className="max-lg:mx-5">
               <h2 className="pb-8 text-3xl text-neutral-900 font-semibold tracking-tighter">
                 <span className="font-sans">1.</span> AI Assisted Development
               </h2>
@@ -38,7 +38,7 @@ export default function WorkingProcessWebDevelopment() {
               </div>
             </div>
 
-            <div className="max-md:mx-5">
+            <div className="max-lg:mx-5">
               <p className="text-lg font-medium text-neutral-800 tracking-tight">
                 In 2023 we can expect these assistants to become more
                 sophisticated and for that to have ripple effects throughout the
@@ -82,7 +82,7 @@ export default function WorkingProcessWebDevelopment() {
               />
             </div>
 
-            <div className="max-md:mx-5">
+            <div className="max-lg:mx-5">
               <p className="text-lg font-medium text-neutral-800 tracking-tight">
                 In 2023 we can expect frameworks to adopt increasingly granular
                 rendering patterns culminating in per-line rendering (PLR) later
@@ -126,7 +126,7 @@ export default function WorkingProcessWebDevelopment() {
               />
             </div>
           </div>
-          <p className="max-md:mx-5 text-lg font-medium text-neutral-800 tracking-tight">
+          <p className="max-lg:mx-5 text-lg font-medium text-neutral-800 tracking-tight">
             In 2023 we can expect even faster and more specialised JS runtimes
             to launch, including the promising Boil, a runtime specifically
             designed to reduce cold boot times on WiFi enabled kettles. All of
